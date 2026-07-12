@@ -143,7 +143,7 @@ Internal review identified a risk that Clinical stories — structured as logs, 
 
 ### 4.1 Generation Model
 
-All stories were generated using **Gemini 2.5 Pro Preview** (same model used for the 12 pilot stories evaluated by human raters). Using a single generation model controls for stylistic variation attributable to the generator, ensuring that differences observed in LLM judge ratings reflect the topic and tone conditions rather than the generator's writing style.
+All stories were generated using **Gemini 3.0 Pro Preview** (the 12 stories evaluated by human raters are a subset of this 80-story set). Using a single generation model controls for stylistic variation attributable to the generator, ensuring that differences observed in LLM judge ratings reflect the topic and tone conditions rather than the generator's writing style.
 
 ### 4.2 Generation Prompt
 
