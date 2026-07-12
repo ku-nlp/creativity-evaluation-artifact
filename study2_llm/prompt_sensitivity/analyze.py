@@ -13,17 +13,23 @@ from scipy import stats
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-OUT_DIR = "experiments_v2/prompt_sensitivity"
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = os.path.join(HERE, "figures")
+os.makedirs(OUT_DIR, exist_ok=True)
 
 # ── Load results ──────────────────────────────────────────────────────────────
-files = glob.glob("study2_llm/prompt_sensitivity/results/*.json")
+# Two schemas coexist: early runs are flat lists of records; later runs wrap
+# the records in {"model", "label", ..., "results": [...]}.
+files = glob.glob(os.path.join(HERE, "results", "*.json"))
 if not files:
     print("No results found. Run run_sensitivity.py first.")
     sys.exit(1)
 
 rows = []
 for f in files:
-    rows.extend(json.load(open(f)))
+    d = json.load(open(f))
+    recs = d.get("results", []) if isinstance(d, dict) else d
+    rows.extend(r for r in recs if r.get("parse_ok", True))
 
 df = pd.DataFrame(rows)
 df["IC_RC_diff"] = df["RC"] - df["IC"]

@@ -305,8 +305,8 @@ print("Saved: pattern_cluster_pca.png")
 fig, ax = plt.subplots(figsize=(7, 4))
 shift_data = [df[df["cluster"] == c][RC_COL].values - df[df["cluster"] == c][IC_COL].values
               for c in range(best_k)]
-ax.boxplot(shift_data, labels=[f"Cluster {c}" for c in range(best_k)], patch_artist=True,
-           boxprops=dict(facecolor="lightblue"))
+ax.boxplot(shift_data, patch_artist=True, boxprops=dict(facecolor="lightblue"))
+ax.set_xticklabels([f"Cluster {c}" for c in range(best_k)])
 ax.axhline(0, color="red", linestyle="--", lw=0.8)
 ax.set_ylabel("RC − IC (shift)")
 ax.set_title("IC→RC shift by rater cluster")

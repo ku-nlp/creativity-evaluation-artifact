@@ -92,7 +92,7 @@ To re-collect LLM ratings from scratch: `study2_llm/rating_scripts/run_judges.py
 Python 3.10+, with:
 
 ```
-pandas numpy scipy scikit-learn statsmodels matplotlib
+pandas numpy scipy scikit-learn statsmodels matplotlib seaborn pingouin
 ```
 
 Only needed to re-collect ratings (not to reproduce analyses): `openai`, `google-genai`, `requests`, and a vLLM server for open models.

@@ -1,4 +1,4 @@
-"""Structured analysis of the 25 LLM conditions (reviewer-requested), all three pillars.
+"""Structured analysis of the 25 LLM conditions (rFcT W4), all three pillars.
 
 Pillar 1  Distribution: mean RC, between-story spread, rho to human ranking
 Pillar 2  Revision: rate, +-1 share, direction by story type (human pattern:
@@ -145,6 +145,7 @@ def main():
         rows.append({
             "condition": cond, "family": fam, "size": size, "mode": mode,
             "mean_RC": df.RC.mean(), "sigma_RC": df.RC.std(),
+            "ceiling": (df.RC == 7).mean(),
             "rho_human": rho,
             "rev_rate": len(rev) / len(df),
             "rev_pm1": (shifts.abs() == 1).mean() if len(rev) else np.nan,
@@ -158,7 +159,7 @@ def main():
         })
     m = pd.DataFrame(rows).set_index("condition")
 
-    metrics1 = ["mean_RC", "sigma_RC", "rho_human"]
+    metrics1 = ["mean_RC", "sigma_RC", "ceiling", "rho_human"]
     metrics2 = ["rev_rate", "rev_pm1", "shift_hiA", "shift_hiR"]
     metrics3 = ["dR2", "cos_human"]
     all_metrics = metrics1 + metrics2 + metrics3
