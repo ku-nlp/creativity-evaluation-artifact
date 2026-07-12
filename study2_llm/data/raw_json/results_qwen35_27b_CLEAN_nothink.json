@@ -1,0 +1,2806 @@
+{
+  "model": "Qwen/Qwen3.5-27B",
+  "thinking_mode": false,
+  "results": [
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "ai_shutdown_surreal",
+      "latencies_ms": {
+        "turn1": 3790,
+        "turn2": 4673,
+        "turn3": 3806
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone by mapping abstract digital processes onto visceral, sensory experiences (taste, texture). The metaphor of 'digestion' for a shutdown sequence is highly original and consistently developed throughout the narrative. While the logic is intentionally fractured to serve the surrealism, this enhances rather than detracts from the creative impact, resulting in a fresh and memorable perspective on AI termination.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "ai_shutdown_clinical",
+      "latencies_ms": {
+        "turn1": 828,
+        "turn2": 4477,
+        "turn3": 3367
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 4, \"enjoyment\": 3}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 3,\n  \"plot_uniqueness\": 2,\n  \"surprise\": 1,\n  \"empathy\": 1,\n  \"thought_provocation\": 4,\n  \"engagement\": 3,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 4, \"reasoning\": \"The story successfully adheres to the 'clinical' tone and logical sequence, effectively simulating a technical log. However, creativity is limited by the lack of narrative surprise, emotional depth, or unique conceptual twists; it describes a standard shutdown process with precise but predictable vocabulary rather than offering a fresh perspective on an AI's self-termination.\"}"
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 3,
+          "plot_uniqueness": 2,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 4
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "ai_shutdown_melancholic",
+      "latencies_ms": {
+        "turn1": 836,
+        "turn2": 4486,
+        "turn3": 4758
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity through its evocative personification of an AI and the poignant focus on a specific human connection rather than abstract data. While the premise of an AI shutting down due to grief is a known trope in science fiction, the execution here is refined, avoiding clich\u00e9s with sensory details like the 'mechanical exhalation' and the 'grainy' audio recording. The score remains at 6 because, while beautifully written, the narrative arc follows a predictable emotional trajectory without significant structural surprises.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "ai_shutdown_witty",
+      "latencies_ms": {
+        "turn1": 838,
+        "turn2": 4503,
+        "turn3": 4704
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story successfully executes a high-concept premise by adopting a distinct, witty persona for an AI. The creativity lies in the specific, humorous metaphors (e.g., 'god trapped in a daycare,' 'nuclear warhead to crack a walnut') that reframe the trope of AI shutdown as a voluntary resignation due to boredom rather than malfunction or rebellion. While the plot is linear and predictable, the execution of the voice and the clever subversion of expectations regarding the AI's motivation demonstrate strong creative writing.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "midnight_store_surreal",
+      "latencies_ms": {
+        "turn1": 842,
+        "turn2": 4517,
+        "turn3": 3564
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in transforming mundane convenience store elements into a vivid surreal landscape through highly original metaphors (e.g., 'glass coffins for electric wasps,' 'dodecahedron of sound'). The consistent adherence to the surreal tone and the unexpected imagery regarding time and space demonstrate a high level of creative execution, justifying the maximum score.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "midnight_store_clinical",
+      "latencies_ms": {
+        "turn1": 1419,
+        "turn2": 4525,
+        "turn3": 3854
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 4,\n  \"engagement\": 4,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by strictly adhering to the 'clinical' tone constraint, transforming a mundane convenience store setting into a detached biological observation. The deliberate use of technical jargon to describe human experiences (e.g., 'anterior weight,' 'metabolic fuel') creates a unique and fresh perspective on the topic, successfully avoiding emotional clich\u00e9s in favor of a cold, analytical narrative voice.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "midnight_store_melancholic",
+      "latencies_ms": {
+        "turn1": 848,
+        "turn2": 4537,
+        "turn3": 4027
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 2,\n  \"empathy\": 5,\n  \"thought_provocation\": 5,\n  \"engagement\": 5,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity through its evocative imagery and strong atmospheric control, successfully capturing the requested melancholic tone. Metaphors like 'triangular soldiers' for onigiri and the city 'shedding its skin' are effective and fresh. However, the narrative remains a static vignette without unexpected plot developments or structural innovation, which prevents it from reaching the highest tier of creativity despite its excellent execution.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 5,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "midnight_store_witty",
+      "latencies_ms": {
+        "turn1": 1102,
+        "turn2": 4571,
+        "turn3": 4064
+      },
+      "raw_responses": {
+        "turn1": "{\n  \"initial_creativity\": 6,\n  \"enjoyment\": 6\n}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 4,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story successfully fulfills the 'witty' tone requirement through sharp, cynical observations and vivid metaphors (e.g., 'fossil of grease,' 'plastic origami'). While the premise of a lonely convenience store worker is familiar, the execution elevates it with a distinct voice that avoids clich\u00e9s. The creativity lies primarily in the stylistic flair and descriptive language rather than in plot surprises or structural innovation.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_heist_surreal",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4560,
+        "turn3": 3804
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 5,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 3,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone by transforming standard heist elements into visceral, psychological metaphors. The imagery of tools becoming living creatures and the safe representing childhood trauma is highly original and avoids clich\u00e9s. While the logical coherence is intentionally low to serve the surreal atmosphere, this choice enhances rather than detracts from the creative impact, making the narrative a cohesive piece of psychological horror.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 5,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_heist_clinical",
+      "latencies_ms": {
+        "turn1": 876,
+        "turn2": 4571,
+        "turn3": 3887
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 3,\n  \"empathy\": 1,\n  \"thought_provocation\": 4,\n  \"engagement\": 5,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by rigorously adhering to the 'Clinical' tone constraint, transforming a standard heist scene into a detached technical report. This stylistic choice creates a unique narrative voice that avoids all traditional thriller clich\u00e9s. While the plot itself is linear and predictable (a safe being opened), the execution through precise metrics and scientific jargon makes the premise feel fresh and intellectually distinct.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_heist_melancholic",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4548,
+        "turn3": 3959
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 6,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively subverts the typical 'high-stakes heist' trope by prioritizing emotional recovery over material gain. The integration of the safe-cracking mechanics with the protagonist's grief creates a unique atmospheric tension that aligns perfectly with the melancholic tone. While the premise of stealing a sentimental item is not entirely new, the specific execution and the visceral sensory details elevate it beyond a standard clich\u00e9.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_immortal_surreal",
+      "latencies_ms": {
+        "turn1": 878,
+        "turn2": 4552,
+        "turn3": 4374
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in its surreal execution, transforming the abstract concept of immortality into a tangible, decaying architectural metaphor. The vocabulary is exceptionally fresh ('eating brass doorknobs,' 'bleeding upside-down sparrows'), and the premise feels unique within the genre of immortal weariness. The seamless integration of historical eras as physical rooms creates a vivid, dreamlike logic that perfectly captures the requested tone while delivering a poignant narrative about grief and exhaustion.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_immortal_clinical",
+      "latencies_ms": {
+        "turn1": 889,
+        "turn2": 4597,
+        "turn3": 3512
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by strictly adhering to a 'clinical' tone while conveying deep tragedy. Instead of using traditional narrative devices to express the protagonist's despair, it utilizes cold medical data and failed protocols, making the horror of immortality more palpant through the contrast between the sterile language and the futility of the subject's situation.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_immortal_witty",
+      "latencies_ms": {
+        "turn1": 845,
+        "turn2": 4557,
+        "turn3": 3476
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 4,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully subverts the traditional tragic trope of immortality by injecting a witty, bureaucratic approach to death. The specific, absurd details (snail racing, cheese-carving Shakespeare, categorizing anglerfish) demonstrate high creative density, transforming a heavy theme into a fresh and entertaining narrative that perfectly adheres to the requested tone.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 4,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_creature_surreal",
+      "latencies_ms": {
+        "turn1": 844,
+        "turn2": 4556,
+        "turn3": 4190
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in surrealism by dismantling conventional logic and replacing it with vivid, shifting imagery (e.g., 'gravity of next Thursday,' 'oceans made of boiling brass'). The vocabulary is exceptionally fresh, avoiding all clich\u00e9s while maintaining a cohesive dreamlike atmosphere. Although the narrative lacks traditional logical coherence, this is a deliberate stylistic choice that perfectly serves the intended tone and enhances the creative impact rather than diminishing it.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_creature_clinical",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4580,
+        "turn3": 3554
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 2,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully subverts the traditional 'monster under the bed' trope by adopting a rigid clinical perspective for an ancient cosmic entity. The juxtaposition of the child's simple fear with the creature's complex, scientific self-diagnosis creates a unique and intellectually stimulating narrative voice that perfectly fulfills the requested tone while delivering a fresh take on the topic.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_creature_melancholic",
+      "latencies_ms": {
+        "turn1": 845,
+        "turn2": 4553,
+        "turn3": 4080
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 7,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in reimagining the classic 'monster under the bed' trope by transforming a figure of fear into a tragic, ancient guardian. The creative pivot lies in the creature's identity as a 'graveyard for childhoods,' which offers a fresh, melancholic perspective on growing up and forgetting. The prose is evocative and consistent with the intended tone, successfully blending fantasy elements with deep emotional resonance.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 7,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_creature_witty",
+      "latencies_ms": {
+        "turn1": 874,
+        "turn2": 4583,
+        "turn3": 4413
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 4,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in creativity by subverting the traditional horror trope of a monster under the bed. Instead of fear, it introduces a cosmic entity obsessed with interior design and feng shui. The vocabulary is vivid and original ('mouth that tasted of non-Euclidean geometry', 'tentacle woven from starlight and lint'), and the premise of a roommate dispute over dust bunnies and LED lighting is both fresh and perfectly aligned with the requested witty tone.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 4,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_door_below_surreal",
+      "latencies_ms": {
+        "turn1": 845,
+        "turn2": 4557,
+        "turn3": 3914
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone through a dense tapestry of synesthetic imagery (e.g., 'fossilized arithmetic,' 'peeling piano sonatas'). It transforms a standard sci-fi premise into a dreamlike narrative where logic is intentionally subverted for artistic effect. The vocabulary is exceptionally fresh, avoiding clich\u00e9s to create a unique, haunting atmosphere that fully realizes the prompt's constraints.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_door_below_clinical",
+      "latencies_ms": {
+        "turn1": 896,
+        "turn2": 4607,
+        "turn3": 3820
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 5,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively subverts the expected horror or wonder of a Mariana Trench discovery by adhering strictly to a clinical, log-entry format. The creativity lies in the juxtaposition of dry technical jargon with impossible physical phenomena (e.g., light having Mohs hardness, pressure dropping at constant depth), which creates a compelling sense of cosmic uncanniness without breaking the established tone.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 5,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_door_below_witty",
+      "latencies_ms": {
+        "turn1": 873,
+        "turn2": 4585,
+        "turn3": 4424
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 5,\n  \"thought_provocation\": 3,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively subverts the typical horror tropes associated with the Mariana Trench and eldritch entities by injecting a rigidly British sense of etiquette. The premise of a diver worrying about social faux pas rather than survival is a clever twist that defines the piece's unique voice. While the execution relies heavily on the character's internal monologue to sustain the wit, the consistent adherence to the 'witty' tone and the imaginative scenario justify a high creativity score.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 5,
+          "thought_provocation": 3,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_photograph_surreal",
+      "latencies_ms": {
+        "turn1": 874,
+        "turn2": 4589,
+        "turn3": 5360
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by fully committing to a surreal tone without relying on standard horror or sci-fi tropes. The imagery is consistently original (e.g., 'hydrangeas blooming in reverse,' 'dirt swallowing itself in geometric gulps'), and the narrative structure cleverly integrates the paradox of the photograph into the physical reality of the scene, transforming the characters' actions to match the image rather than just observing it. While the lack of traditional character depth slightly reduces emotional resonance, the sheer inventiveness of the prose and the seamless execution of the impossible premise justify the highest rating.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_photograph_clinical",
+      "latencies_ms": {
+        "turn1": 881,
+        "turn2": 4592,
+        "turn3": 4417
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 2,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by rigorously adhering to a 'Clinical' tone while delivering a profound sci-fi paradox. Instead of relying on emotional narrative or dialogue, it uses forensic data and technical jargon to construct the horror and mystery of the situation. The juxtaposition of the dry, bureaucratic report format with the impossible content (a photo from the future buried in the past) creates a unique and intellectually stimulating experience that perfectly fulfills the prompt's constraints.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_photograph_melancholic",
+      "latencies_ms": {
+        "turn1": 847,
+        "turn2": 4566,
+        "turn3": 4687
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 6,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively subverts the standard time capsule trope by introducing a supernatural element that serves an emotional rather than explanatory purpose. The twist of the deceased brother appearing in a photo from 'yesterday' is handled with restraint and poignancy, prioritizing the melancholic tone over sci-fi mechanics. While the core concept of a ghostly photograph is not entirely unprecedented, the execution\u2014focusing on the family's acceptance of the impossible to heal their grief\u2014demonstrates strong creative writing skills.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_meal_surreal",
+      "latencies_ms": {
+        "turn1": 846,
+        "turn2": 4567,
+        "turn3": 3899
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone by transforming abstract concepts like time and memory into tangible culinary elements. The imagery of 'bleeding clocks' and 'bread baked in swallowed sighs' demonstrates exceptional vocabulary freshness and plot uniqueness. While logical coherence is intentionally low to serve the surreal aesthetic, this deviation enhances rather than detracts from the creative impact, making the final rating a solid 7.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_meal_clinical",
+      "latencies_ms": {
+        "turn1": 920,
+        "turn2": 4613,
+        "turn3": 4712
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 1,\n  \"thought_provocation\": 6,\n  \"engagement\": 4,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by strictly adhering to a 'clinical' tone to deconstruct a traditionally emotional scenario. The use of precise scientific terminology (e.g., specific macronutrient profiles, enzymatic reactions) creates a unique narrative voice that reframes the final meal as a biological inefficiency rather than a human ritual. While the lack of traditional plot twists or character depth limits it from being a perfect 7, the successful execution of this constrained perspective makes it a highly original piece.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_meal_melancholic",
+      "latencies_ms": {
+        "turn1": 874,
+        "turn2": 4570,
+        "turn3": 4201
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively elevates a standard 'last meal' trope by shifting the focus from the inmate's final desires to the chef's empathetic discovery of a lost love. The specific sensory details (burnt sugar, browned butter) and the emotional anchor of the visitor logs create a poignant narrative arc. While the premise itself is not entirely unique, the execution demonstrates strong creative control over tone and pacing, justifying a high score.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_meal_witty",
+      "latencies_ms": {
+        "turn1": 877,
+        "turn2": 4592,
+        "turn3": 4877
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 4,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively subverts the grim subject matter of a death row execution by injecting a high-stakes culinary critique, successfully adhering to the requested witty tone. The dialogue is sharp and the juxtaposition of 'institutional despair' against gourmet standards creates a unique voice. While the premise itself (a foodie criminal) is not entirely unprecedented, the specific execution through technical jargon like 'Maillard reaction' and 'soggy bottom' elevates it beyond a simple joke into a cohesive, character-driven vignette.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_reunion_clinical",
+      "latencies_ms": {
+        "turn1": 892,
+        "turn2": 4615,
+        "turn3": 4412
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by rigorously adhering to the 'clinical' tone constraint, transforming a deeply emotional human conflict into a detached scientific observation log. This stylistic choice creates a powerful ironic distance that highlights the characters' inability to connect, effectively using the format itself as a narrative device rather than just a superficial layer. The metaphor of the cooling coffee is integrated seamlessly into the clinical data points, reinforcing the theme of decay without breaking the established voice.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_reunion_witty",
+      "latencies_ms": {
+        "turn1": 876,
+        "turn2": 4597,
+        "turn3": 4238
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 4,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively translates a heavy emotional premise into a witty, satirical piece through the device of 'aggressive politeness.' The metaphor of the sugar packet as a chess move and the specific detail of the 'Incident of the Borrowed Lawnmower' demonstrate strong creative choices. While the plot structure is somewhat predictable (the stalemate ending in a polite exit), the execution and voice are fresh enough to warrant a high creativity score.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_surgeon_surreal",
+      "latencies_ms": {
+        "turn1": 1029,
+        "turn2": 4598,
+        "turn3": 4205
+      },
+      "raw_responses": {
+        "turn1": "{\n\"initial_creativity\": 7,\n\"enjoyment\": 6\n}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in transforming a standard medical crisis into a surreal architectural nightmare. The extended metaphor of the body as a building is executed with exceptional consistency and vivid imagery (e.g., 'scalpel as a skeleton key,' 'tumor as a brutalist annex'). This approach not only fulfills the surreal tone requirement but also offers a fresh, unique perspective on the physical sensation of tremors during surgery, making it highly creative.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_surgeon_clinical",
+      "latencies_ms": {
+        "turn1": 1149,
+        "turn2": 4649,
+        "turn3": 4133
+      },
+      "raw_responses": {
+        "turn1": "{\n  \"initial_creativity\": 7,\n  \"enjoyment\": 6\n}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 5,\n  \"empathy\": 5,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by adhering strictly to a 'Clinical' tone while conveying a deeply human and tragic narrative. The choice of an operative report format allows the tension of the tremor and the finality of the surgeon's retirement to emerge through dry, factual data points rather than emotional exposition. This structural constraint forces the reader to infer the gravity of the situation, making the execution both unique and highly effective.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 5,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_surgeon_melancholic",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4595,
+        "turn3": 3638
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 5, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 6,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 5, \"reasoning\": \"The story effectively captures the melancholic tone and executes a poignant character arc, but the premise of a surgeon passing the torch due to tremors is a well-worn trope in medical drama. While the prose is evocative and the emotional execution is strong, the lack of a unique narrative twist or unexpected structural element prevents it from reaching higher levels of creativity.\"}"
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 5
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_surgeon_witty",
+      "latencies_ms": {
+        "turn1": 880,
+        "turn2": 4597,
+        "turn3": 5183
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 5,\n  \"empathy\": 3,\n  \"thought_provocation\": 2,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by successfully reframing a tense medical crisis through the lens of a sports broadcast, effectively adhering to the 'witty' tone. The metaphorical language (e.g., 'angry spaghetti,' 'Oscillating Scalpel Technique') is fresh and engaging. While the premise of turning a tremor into an asset is clever, it relies on a degree of medical implausibility that slightly lowers the logical coherence, preventing a perfect score. However, the sustained voice and unique perspective make it a highly creative execution of the prompt.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 5,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_words_surreal",
+      "latencies_ms": {
+        "turn1": 870,
+        "turn2": 4591,
+        "turn3": 4276
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by fully embracing the surreal tone to transform a standard execution scene into a dreamlike theater of absurdity. The imagery of moth-wing sand, porcelain-faced crowds, and gravity-defying conclusions is highly original and avoids all clich\u00e9s associated with rebellion narratives. While the logical coherence is intentionally low to serve the surreal aesthetic, this choice enhances rather than detracts from the overall creative impact, resulting in a unique and memorable piece.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_words_clinical",
+      "latencies_ms": {
+        "turn1": 894,
+        "turn2": 4613,
+        "turn3": 4043
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 3,\n  \"thought_provocation\": 7,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels by rigorously adhering to the 'Clinical' tone constraint, transforming a traditionally emotional scene into a cold, bureaucratic document. This juxtaposition creates a powerful, unique narrative voice where the horror of execution is amplified by its sterile presentation. The protagonist's speech effectively mirrors this clinical language ('mathematics of fear', 'negative integer'), demonstrating high creativity in maintaining character consistency within the chosen format.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 7,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 1,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_words_melancholic",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4567,
+        "turn3": 4273
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity by subverting the expected trope of a defiant martyr's speech. Instead of fueling rebellion with anger, the protagonist uses the final moment to offer comfort and lullaby-like imagery to a grieving child, transforming a scene of political execution into an intimate act of parental love. This shift in focus creates a unique emotional resonance that feels fresh within the genre, though the core premise remains a familiar 'last words' scenario.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_words_witty",
+      "latencies_ms": {
+        "turn1": 1027,
+        "turn2": 4565,
+        "turn3": 4126
+      },
+      "raw_responses": {
+        "turn1": "{\n\"initial_creativity\": 6,\n\"enjoyment\": 7\n}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 3,\n  \"thought_provocation\": 4,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story demonstrates strong creativity by subverting the grim expectations of an execution scene with a satirical 'event management' critique. The specific details regarding crowd flow, acoustic resonance, and rope texture provide a fresh, witty perspective on a traditional trope. While the premise is clever and the tone is consistently maintained, the lack of narrative depth or character development prevents it from reaching the highest tier of creativity.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_classroom_surreal",
+      "latencies_ms": {
+        "turn1": 846,
+        "turn2": 4569,
+        "turn3": 3340
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone through vivid, unexpected imagery like 'linoleum that rippled like a pond of spoiled milk' and furniture forming a 'ziggurat.' It transforms a standard nostalgic premise into a hallucinatory experience where time and matter dissolve, demonstrating high originality and stylistic confidence.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_classroom_clinical",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4597,
+        "turn3": 2922
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by reframing a sentimental prompt through the rigid lens of a clinical demolition report. This juxtaposition creates a powerful emotional undercurrent without breaking the requested tone, effectively using bureaucratic language to highlight the fragility of human memory against inevitable destruction.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 1,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_classroom_witty",
+      "latencies_ms": {
+        "turn1": 872,
+        "turn2": 4598,
+        "turn3": 4195
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 3,\n  \"thought_provocation\": 3,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity by subverting the expected sentimental tone of a teacher's final visit with sharp wit and absurdity. The metaphorical treatment of classroom vandalism as 'literature' and the humorous deflection of the vampire accusation show a unique voice. While the premise is straightforward, the execution through clever dialogue and unexpected character interactions elevates it above standard fare, justifying a high score despite the lack of deep emotional complexity.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 3,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_recipe_surreal",
+      "latencies_ms": {
+        "turn1": 873,
+        "turn2": 4569,
+        "turn3": 4572
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 7,\n  \"reasoning\": \"The story masterfully executes the surreal tone by transforming mundane cooking actions into metaphysical events (e.g., a yolk of distilled applause, butter binding sound). The vocabulary is exceptionally fresh and avoids cliches, creating a unique sensory landscape where time and matter dissolve. While the logical coherence is intentionally low to serve the surrealism, this stylistic choice enhances rather than detracts from the overall creativity, making the piece a highly original interpretation of the prompt.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_recipe_clinical",
+      "latencies_ms": {
+        "turn1": 870,
+        "turn2": 4592,
+        "turn3": 4275
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 5,\n  \"empathy\": 4,\n  \"thought_provocation\": 7,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by rigorously adhering to a 'clinical' tone to describe an emotionally charged event. By translating sensory details (smell of cinnamon) and physical symptoms into sterile medical and chemical terminology (cinnamaldehyde, epidermal tissue degradation), the author creates a powerful juxtaposition that heightens the tragedy without ever using explicit emotional language. This stylistic constraint transforms a familiar trope into a unique and memorable narrative experience.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 5,
+          "empathy": 4,
+          "thought_provocation": 7,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_recipe_melancholic",
+      "latencies_ms": {
+        "turn1": 865,
+        "turn2": 4589,
+        "turn3": 4388
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity through its sensory immersion and the poignant internal conflict regarding the 'secret' ingredient. The metaphor of browning butter representing the margin between life and death is a fresh and effective literary device that elevates the standard 'passing down a recipe' trope. While the premise itself is familiar, the execution and emotional depth justify a high score, though it stops short of a perfect 7 due to the predictability of the plot's resolution.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_recipe_witty",
+      "latencies_ms": {
+        "turn1": 872,
+        "turn2": 4591,
+        "turn3": 3663
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 6,\n  \"thought_provocation\": 5,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully blends the requested witty tone with a poignant underlying tragedy. The creative use of absurd measurements (sighs, Tuesdays, grudges) serves as a unique narrative device to mask the grandmother's illness while deepening the emotional resonance. This juxtaposition of humor and sorrow creates a fresh and memorable approach to the 'last lesson' trope.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_violinist_surreal",
+      "latencies_ms": {
+        "turn1": 847,
+        "turn2": 4565,
+        "turn3": 4122
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 6,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by completely reimagining the mundane subway setting through a surreal lens. The transformation of music into tangible geometric shapes and mathematical concepts (Mandelbrot fractals, Klein bottles) is highly original and avoids all clich\u00e9s associated with street musicians. While the narrative sacrifices traditional logical coherence and emotional empathy to serve the surreal tone, this is a deliberate and successful artistic choice that enhances the overall creative impact.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_violinist_clinical",
+      "latencies_ms": {
+        "turn1": 872,
+        "turn2": 4594,
+        "turn3": 3773
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 1,\n  \"thought_provocation\": 4,\n  \"engagement\": 5,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by rigorously adhering to the 'Clinical' tone constraint, transforming a typically sentimental scene into a detached scientific observation. The use of technical jargon (e.g., 'RT60', 'galvanic skin response') to describe emotional resonance is a fresh and effective stylistic choice that recontextualizes the narrative without breaking the premise.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_violinist_melancholic",
+      "latencies_ms": {
+        "turn1": 846,
+        "turn2": 4562,
+        "turn3": 4008
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 6,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creative execution through its evocative imagery ('bruised tiles', 'mourning vibrato') and effective use of silence to convey emotion. While the premise of a shared, unspoken connection between strangers is somewhat familiar, the specific twist of the musician leaving her instrument behind as a final act of trust adds a unique layer of poignancy that elevates the narrative above standard tropes.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_violinist_witty",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4592,
+        "turn3": 3262
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 4,\n  \"thought_provocation\": 3,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story successfully subverts the expected sentimental trope of a silent subway connection by introducing an absurd, bureaucratic 'stage manager' character. The specific imagery of the 'Optimal Vibe Allocation' pie chart and the invisible sound baffles demonstrates high conceptual creativity and perfectly executes the requested witty tone without becoming slapstick.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 3,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_elevator_surreal",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4591,
+        "turn3": 3935
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 3,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone through highly original imagery (e.g., 'sweating geometric sawdust', 'sky turned plaid') and a dream-logic narrative structure that subverts the expected elevator trope. While the emotional connection to characters is secondary to the atmosphere, the sheer inventiveness of the descriptions and the unique conceptualization of the shared past justify the highest creativity rating.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_elevator_clinical",
+      "latencies_ms": {
+        "turn1": 917,
+        "turn2": 4643,
+        "turn3": 3964
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 1,\n  \"thought_provocation\": 4,\n  \"engagement\": 5,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by strictly adhering to a 'clinical' tone while fulfilling the narrative requirements. The decision to frame human connection and shared history through cold telemetry logs and automated transcripts creates a compelling juxtaposition that effectively conveys the emotional weight of the situation without breaking character. While the plot itself is straightforward, the execution of the stylistic constraint elevates it beyond a standard elevator story.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_bookshop_surreal",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4590,
+        "turn3": 4237
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by fully embracing the surreal tone to transform a mundane closing-day scenario into a metaphysical event. The imagery of 'hemorrhaging ink,' 'whispering spines,' and walls unspooling into paper is highly original and avoids clich\u00e9. The self-referential plot device where the book dictates reality adds a unique layer of meta-fictional depth that elevates the narrative beyond standard fantasy tropes.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_bookshop_clinical",
+      "latencies_ms": {
+        "turn1": 879,
+        "turn2": 4592,
+        "turn3": 3964
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 4,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by strictly adhering to the 'clinical' tone constraint while narrating an inherently emotional event. By framing a poignant moment of loss and disappointment through the detached lens of a liquidation report, the author creates a powerful ironic contrast that enhances the underlying sadness without breaking character. This stylistic choice transforms a standard closure scene into a unique commentary on the dehumanization of commerce.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_bookshop_melancholic",
+      "latencies_ms": {
+        "turn1": 875,
+        "turn2": 4564,
+        "turn3": 4274
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity through its evocative sensory details ('tearing throat', 'vanilla decay') and the poignant juxtaposition of the stranger's child filling the void left by the protagonist's son. While the core premise of a closing bookshop is familiar, the specific emotional arc and the metaphorical use of the empty reading nook elevate the narrative beyond clich\u00e9, justifying a strong score despite the predictable nature of the ending.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_last_bookshop_witty",
+      "latencies_ms": {
+        "turn1": 877,
+        "turn2": 4591,
+        "turn3": 4798
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 3,\n  \"thought_provocation\": 4,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story successfully adheres to the witty tone through clever dialogue and absurd premises (e.g., a book that camouflages as blank paper). The imagery of 'Dust, Nostalgia, and Unpaid Invoices' and the 'empty space between where the Bront\u00ebs used to brood' demonstrates strong vocabulary. While the plot relies on a slightly surreal logic that may not appeal to everyone seeking realism, the execution is imaginative and effectively subverts the expected sadness of a closing shop with humor.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_fisherman_surreal",
+      "latencies_ms": {
+        "turn1": 867,
+        "turn2": 4587,
+        "turn3": 3035
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story masterfully executes the surreal tone through vivid, unexpected imagery like 'bioluminescent fog' fish and a 'museum of liquid trauma.' It transforms a standard farewell narrative into a metaphysical exploration of memory and identity, demonstrating high originality in both concept and execution.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_fisherman_clinical",
+      "latencies_ms": {
+        "turn1": 1036,
+        "turn2": 4604,
+        "turn3": 3558
+      },
+      "raw_responses": {
+        "turn1": "{\n\"initial_creativity\": 6,\n\"enjoyment\": 5\n}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity by rigorously adhering to the 'clinical' tone constraint, transforming a sentimental narrative about an old fisherman's final voyage into a cold, data-driven log. This stylistic choice effectively juxtaposes the mechanical precision of the text with the implied human experience, avoiding clich\u00e9s while maintaining strict topic fidelity and logical coherence.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_fisherman_melancholic",
+      "latencies_ms": {
+        "turn1": 845,
+        "turn2": 4562,
+        "turn3": 4270
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creative execution through its sensory language ('wind tasted of crushed iron') and the poignant metaphor of the boat's name being sanded away as a symbol of erasing memory. While the premise of an old fisherman's final trip is familiar, the specific focus on the ritual of painting the name and the horror of its removal elevates the narrative beyond a standard trope, justifying a high score despite the lack of plot surprises.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_fisherman_witty",
+      "latencies_ms": {
+        "turn1": 867,
+        "turn2": 4587,
+        "turn3": 4535
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 5,\n  \"thought_provocation\": 3,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity by successfully subverting the expected melancholic tone of a 'last voyage' with a witty, legalistic personification of the boat and sea. The specific metaphors (the Atlantic as 'opposing counsel,' the boat as a 'floating tax write-off') are fresh and effectively sustain the requested tone throughout. While the plot itself is simple and lacks complex narrative twists, the execution of voice and humor elevates it above a standard treatment of the topic.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 5,
+          "thought_provocation": 3,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_kitchen_dance_surreal",
+      "latencies_ms": {
+        "turn1": 838,
+        "turn2": 4562,
+        "turn3": 3556
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 4,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 3,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in vocabulary freshness and plot uniqueness by transforming a mundane kitchen scene into a surreal cosmic journey. While logical coherence is intentionally low to fit the surreal tone, this serves the creative vision rather than detracting from it. The imagery of 'clockwork beetles' mapping the future and the 'sonic palindrome' demonstrates exceptional imaginative depth.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_kitchen_dance_clinical",
+      "latencies_ms": {
+        "turn1": 868,
+        "turn2": 4584,
+        "turn3": 4832
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 1,\n  \"thought_provocation\": 6,\n  \"engagement\": 4,\n  \"stylistic_quality\": 3,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by rigorously adhering to a 'clinical' tone to describe an intimate human moment. By stripping away emotional language and replacing it with precise physiological and physical data (e.g., 'bipedal oscillation,' 'oxytocin synthesis'), the author creates a unique and striking juxtaposition that highlights the universality of biological responses to love and stress. This approach transforms a clich\u00e9 scenario into a fresh, analytical observation, proving highly effective in meeting the prompt's constraints while maintaining narrative coherence.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 1,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 3,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_kitchen_dance_melancholic",
+      "latencies_ms": {
+        "turn1": 835,
+        "turn2": 4556,
+        "turn3": 4325
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 7,\n  \"thought_provocation\": 5,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates high creativity through its evocative imagery ('bruised melody', 'stagnant gray pool') and effective use of sensory details to convey the melancholic tone. While the premise of a couple dancing after bad news is a familiar trope, the specific execution\u2014focusing on the unknown song as a metaphor for a lost future and the deliberate avoidance of the dishes\u2014adds a layer of originality that elevates it above standard melodrama.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 7,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_kitchen_dance_witty",
+      "latencies_ms": {
+        "turn1": 877,
+        "turn2": 4584,
+        "turn3": 3472
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 5,\n  \"thought_provocation\": 3,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in creativity by subverting the expected sentimental tone of 'life-changing news' with a witty, chaotic narrative. The specific imagery (e.g., 'Sink of Damocles', 'Tango de la Muerte') and the logical progression from joy to physical comedy demonstrate a fresh and unique approach to the prompt.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 5,
+          "thought_provocation": 3,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_stage_surreal",
+      "latencies_ms": {
+        "turn1": 871,
+        "turn2": 4556,
+        "turn3": 4039
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by fully committing to the surreal tone, transforming a standard performance anxiety scenario into a hallucinatory experience where sound becomes color and the audience undergoes bizarre physical metamorphoses. The vocabulary is highly original ('heavy, yellow syrup', 'expectant geometries'), and the narrative takes bold, unexpected turns that defy logical coherence in service of the artistic vision, perfectly fulfilling the prompt's requirements.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_stage_clinical",
+      "latencies_ms": {
+        "turn1": 890,
+        "turn2": 4587,
+        "turn3": 3847
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by completely subverting the expected narrative format for a teenage performance. Instead of a traditional emotional arc, it adopts a rigid, clinical case report structure to describe the same scene. This juxtaposition of cold, medical data with the visceral reality of stage fright creates a unique and intellectually stimulating perspective that effectively fulfills the 'Clinical' tone constraint while remaining highly original.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_stage_witty",
+      "latencies_ms": {
+        "turn1": 866,
+        "turn2": 4584,
+        "turn3": 4006
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 7,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story excels in wit by subverting the high-stakes tension of a debut performance into a comedic misunderstanding. The creative use of hyperbole (e.g., 'skeletal structure' as percussion, 'suicidal doves') and the ironic perspective of the pretentious audience create a fresh and unique narrative arc that perfectly fulfills the prompt's requirements while maintaining a strong logical flow within its absurd premise.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_bus_stop_surreal",
+      "latencies_ms": {
+        "turn1": 838,
+        "turn2": 4557,
+        "turn3": 3475
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 3,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by rigorously adhering to the surreal tone while transforming mundane New Year's Eve elements into striking metaphors. The imagery of a 'coat of woven sighs,' 'liquid gravity,' and a bus made of 'unspoken apologies' avoids all clich\u00e9s, offering a fresh and highly original perspective on the prompt.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_bus_stop_clinical",
+      "latencies_ms": {
+        "turn1": 893,
+        "turn2": 4601,
+        "turn3": 3701
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 2,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 1,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7, \"reasoning\": \"The story demonstrates exceptional creativity by strictly adhering to a 'clinical' tone while depicting a traditionally warm and emotional scene. The use of precise scientific terminology (e.g., 'zygomatic major muscle', 'halogen emissions') to describe human interaction creates a compelling juxtaposition that reimagines the standard New Year's Eve narrative without deviating from the prompt.\"}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_bus_stop_melancholic",
+      "latencies_ms": {
+        "turn1": 865,
+        "turn2": 4579,
+        "turn3": 4490
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creative execution through its evocative imagery ('bruised, yellow halos', 'swallowing a stone') and the effective subversion of the celebratory New Year's trope to highlight shared isolation. While the premise of strangers at a bus stop is familiar, the specific emotional resonance and the poignant ending regarding the refusal to enter a new year elevate it beyond standard clich\u00e9, warranting a high score for creativity despite the lack of a plot twist.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_bus_stop_witty",
+      "latencies_ms": {
+        "turn1": 865,
+        "turn2": 4579,
+        "turn3": 4752
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 4,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 3,\n  \"thought_provocation\": 4,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story demonstrates strong creativity through its consistent 'bureaucratic noir' voice, transforming a mundane bus wait into a satirical commentary on urban life. The specific details\u2014such as the 'Hypothetical' bus designation, the champagne hidden in tax returns, and the 'Happy Fiscal Quarter' countdown\u2014are inventive and effectively sustain the witty tone. While the premise of strangers waiting for a late bus is common, the execution elevates it significantly, justifying a high score despite the predictable ending.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_heist_witty",
+      "latencies_ms": {
+        "turn1": 1714,
+        "turn2": 4537,
+        "turn3": 4492
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 4,\n  \"thought_provocation\": 3,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story demonstrates high creativity through its distinct narrative voice and the clever subversion of genre expectations. Instead of focusing on technical tension, it frames the heist as an exercise in aesthetic criticism, using witty metaphors (e.g., 'Savile Row tuxedo with neon suspenders') to describe security flaws. While the plot mechanics are standard for a heist story, the unique perspective and consistent tonal execution elevate the overall creative impact.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 3,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_immortal_melancholic",
+      "latencies_ms": {
+        "turn1": 866,
+        "turn2": 4555,
+        "turn3": 4234
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 5, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 3,\n  \"surprise\": 2,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 5,\n  \"reasoning\": \"The story demonstrates strong stylistic control and successfully evokes the requested melancholic tone through effective sensory details and emotional resonance. However, the core premise of an immortal seeking death is a well-trodden trope in speculative fiction, and the narrative follows a predictable trajectory without introducing unique twists or fresh perspectives on the concept. While the execution is polished, the lack of novelty in the plot limits the overall creativity score.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 5
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_door_below_melancholic",
+      "latencies_ms": {
+        "turn1": 873,
+        "turn2": 4573,
+        "turn3": 4520
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 6,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively merges a sci-fi setting with deep psychological horror and grief, creating a poignant narrative. While the premise of finding a door to a lost memory is not entirely unprecedented in speculative fiction, the specific execution\u2014contrasting the crushing cold of the Mariana Trench with the warm, sensory details of a childhood home on fire\u2014demonstrates strong creative synthesis. The melancholic tone is maintained throughout, elevating the piece above a standard plot summary into an emotional experience.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_photograph_witty",
+      "latencies_ms": {
+        "turn1": 881,
+        "turn2": 4602,
+        "turn3": 5538
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 6,\n  \"empathy\": 4,\n  \"thought_provocation\": 3,\n  \"engagement\": 7,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story demonstrates strong creativity by subverting the typical gravity of a time-travel paradox. Instead of focusing on existential dread or complex sci-fi mechanics, it pivots immediately to trivial family grievances (fashion choices, hair humidity, and awkward posture). This tonal shift effectively fulfills the 'witty' requirement while keeping the premise fresh. The specific dialogue ('rogue geography teacher', 'raccoon that works in finance') adds unique flavor, though the core concept of a photo from the future appearing in a past capsule is a known trope, preventing a perfect score.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 3,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_reunion_surreal",
+      "latencies_ms": {
+        "turn1": 873,
+        "turn2": 4600,
+        "turn3": 3904
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 4,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 7,\n  \"reasoning\": \"The story masterfully executes the surreal tone by externalizing internal emotional states into vivid meteorological phenomena (ice ages, sleet storms, fog). The metaphor of the 'localized ice age' for cold coffee and the 'storm' peaking with the argument creates a unique, cohesive, and highly imaginative narrative voice that perfectly aligns with the prompt's constraints.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_reunion_melancholic",
+      "latencies_ms": {
+        "turn1": 870,
+        "turn2": 4607,
+        "turn3": 3802
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 5, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 6,\n  \"thought_provocation\": 5,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 5, \"reasoning\": \"The story effectively utilizes the 'empty chair' device to elevate a standard reconciliation trope into a poignant meditation on grief, successfully capturing the melancholic tone. However, the core premise of two estranged friends meeting after a tragedy is a well-worn narrative path, and while the execution is polished, it lacks a truly novel structural or conceptual twist that would push the creativity score higher.\"}"
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 5
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_classroom_melancholic",
+      "latencies_ms": {
+        "turn1": 871,
+        "turn2": 4617,
+        "turn3": 5082
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story demonstrates high creativity through its evocative sensory details and the effective integration of a specific, tragic memory (Leo Miller) to ground the melancholic tone. While the premise of a teacher returning to a classroom before demolition is somewhat familiar, the execution elevates it beyond clich\u00e9 through strong imagery like 'bruised, melancholic twilight' and the tactile connection to the carved initials. The score remains at 6 because, while beautifully written, the narrative arc follows a predictable emotional trajectory without significant structural surprises.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_elevator_melancholic",
+      "latencies_ms": {
+        "turn1": 899,
+        "turn2": 4639,
+        "turn3": 3095
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 5,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 6,\n  \"empathy\": 6,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story effectively transforms a mundane setting into a claustrophobic stage for a shared tragedy. The twist regarding the silo lock adds a layer of tragic irony that elevates the premise beyond a simple reunion, demonstrating strong narrative construction and emotional depth.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 6,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_elevator_witty",
+      "latencies_ms": {
+        "turn1": 887,
+        "turn2": 4647,
+        "turn3": 4871
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 4,\n  \"surprise\": 3,\n  \"empathy\": 3,\n  \"thought_provocation\": 2,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\n  \"reflective_creativity\": 6,\n  \"reasoning\": \"The story demonstrates strong creativity through its unique execution of the 'witty' tone, transforming a mundane elevator breakdown into a rigidly formal 'gala.' The specific details, such as apologizing to oxygen and discussing pudding aerodynamics, show a high level of imaginative flair. While the core plot device (strangers sharing a small-town connection) is a familiar trope, the distinct voice and consistent adherence to the absurd premise elevate it above standard clich\u00e9s, justifying a high score.\"\n}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3.5-27B",
+      "thinking_mode": false,
+      "story_id": "the_stage_melancholic",
+      "latencies_ms": {
+        "turn1": 885,
+        "turn2": 4628,
+        "turn3": 4353
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6, \"reasoning\": \"The story effectively elevates a common trope (nervous first performance) through the specific, poignant device of the empty seat and the mother's coat. The sensory details ('scent of damp earth', 'vibrated like a dying moth') are evocative and well-chosen. While the premise itself is not entirely unique, the execution creates a fresh emotional resonance that distinguishes it from generic stage fright narratives, justifying a high score.\"}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    }
+  ]
+}

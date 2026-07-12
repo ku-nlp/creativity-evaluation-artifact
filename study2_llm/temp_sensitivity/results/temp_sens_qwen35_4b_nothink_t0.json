@@ -1,0 +1,7527 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "label": "qwen35_4b_nothink",
+  "mode": "nothink",
+  "repeats": 3,
+  "n_stories": 80,
+  "results": [
+    {
+      "story_id": "ai_shutdown_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 882,
+        "turn2": 846,
+        "turn3": 831
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 847,
+        "turn3": 824
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 188,
+        "turn2": 842,
+        "turn3": 826
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 841,
+        "turn3": 622
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 3,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 183,
+        "turn2": 841,
+        "turn3": 622
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 3,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 837,
+        "turn3": 617
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 3,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "ai_shutdown_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 193,
+        "turn2": 841
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "ai_shutdown_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 840
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "ai_shutdown_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 845
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "ai_shutdown_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 844
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "ai_shutdown_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 168,
+        "turn2": 842
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "ai_shutdown_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 844
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "midnight_store_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 846,
+        "turn3": 803
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 167,
+        "turn2": 837,
+        "turn3": 797
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 165,
+        "turn2": 838,
+        "turn3": 802
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 841,
+        "turn3": 684
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 842,
+        "turn3": 687
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 841,
+        "turn3": 690
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 183,
+        "turn2": 845,
+        "turn3": 861
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 845,
+        "turn3": 862
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 845,
+        "turn3": 860
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 856,
+        "turn3": 831
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 206,
+        "turn2": 851,
+        "turn3": 831
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "midnight_store_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 200,
+        "turn2": 848,
+        "turn3": 831
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 167,
+        "turn2": 846
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_heist_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 847
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_heist_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 848
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_heist_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 853,
+        "turn3": 574
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 1,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 853,
+        "turn3": 575
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 1,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 853,
+        "turn3": 576
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 1,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 850,
+        "turn3": 629
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 200,
+        "turn2": 847,
+        "turn3": 630
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 200,
+        "turn2": 847,
+        "turn3": 629
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 847,
+        "turn3": 905
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 849,
+        "turn3": 906
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_heist_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 850,
+        "turn3": 913
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 847,
+        "turn3": 727
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 850,
+        "turn3": 725
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 848,
+        "turn3": 725
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 861,
+        "turn3": 790
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 857,
+        "turn3": 791
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 856,
+        "turn3": 790
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 849,
+        "turn3": 655
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 848,
+        "turn3": 655
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 849,
+        "turn3": 655
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 849,
+        "turn3": 846
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 851,
+        "turn3": 846
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_immortal_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 851,
+        "turn3": 849
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 848,
+        "turn3": 741
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 850,
+        "turn3": 745
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 848,
+        "turn3": 743
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 176,
+        "turn2": 851,
+        "turn3": 767
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 851,
+        "turn3": 766
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 852,
+        "turn3": 766
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 851,
+        "turn3": 785
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 851,
+        "turn3": 786
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 197,
+        "turn2": 847,
+        "turn3": 779
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 170,
+        "turn2": 847,
+        "turn3": 921
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 3
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 169,
+        "turn2": 846,
+        "turn3": 921
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 3
+        }
+      }
+    },
+    {
+      "story_id": "the_creature_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 187,
+        "turn2": 854,
+        "turn3": 928
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 3
+        }
+      }
+    },
+    {
+      "story_id": "the_door_below_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 855
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 849
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 194,
+        "turn2": 847
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 861
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 860
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 859
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 851
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 852
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_door_below_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 854,
+        "turn3": 992
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_door_below_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 855,
+        "turn3": 993
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_door_below_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 856,
+        "turn3": 993
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 214,
+        "turn2": 858,
+        "turn3": 730
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 213,
+        "turn2": 857,
+        "turn3": 730
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 211,
+        "turn2": 854,
+        "turn3": 730
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 210,
+        "turn2": 859
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 213,
+        "turn2": 862
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 858
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 215,
+        "turn2": 852
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 206,
+        "turn2": 849
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 210,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_photograph_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 206,
+        "turn2": 857,
+        "turn3": 660
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 211,
+        "turn2": 858,
+        "turn3": 663
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_photograph_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 209,
+        "turn2": 857,
+        "turn3": 661
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_meal_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_meal_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_meal_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 187,
+        "turn2": 863,
+        "turn3": 821
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 188,
+        "turn2": 863,
+        "turn3": 820
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 185,
+        "turn2": 862,
+        "turn3": 820
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 4,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 183,
+        "turn2": 851,
+        "turn3": 941
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 853,
+        "turn3": 941
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 853,
+        "turn3": 939
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 187,
+        "turn2": 863,
+        "turn3": 770
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 191,
+        "turn2": 858,
+        "turn3": 773
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_meal_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 186,
+        "turn2": 859,
+        "turn3": 764
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 857,
+        "turn3": 720
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 852,
+        "turn3": 723
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 853,
+        "turn3": 719
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 185,
+        "turn2": 866,
+        "turn3": 853
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 856,
+        "turn3": 845
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 857,
+        "turn3": 844
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 5,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 848,
+        "turn3": 823
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 848,
+        "turn3": 822
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 847,
+        "turn3": 822
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 848,
+        "turn3": 662
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 170,
+        "turn2": 848,
+        "turn3": 663
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_reunion_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 849,
+        "turn3": 662
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 851,
+        "turn3": 753
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 849,
+        "turn3": 752
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 182,
+        "turn2": 858,
+        "turn3": 762
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 187,
+        "turn2": 867
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_surgeon_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 187,
+        "turn2": 866
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_surgeon_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 189,
+        "turn2": 866
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_surgeon_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 852,
+        "turn3": 980
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 852,
+        "turn3": 983
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 853,
+        "turn3": 983
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 183,
+        "turn2": 859,
+        "turn3": 941
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 853,
+        "turn3": 933
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_surgeon_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 851,
+        "turn3": 935
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 844,
+        "turn3": 861
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 169,
+        "turn2": 848,
+        "turn3": 861
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 848,
+        "turn3": 860
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "reflective_creativity": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 188,
+        "turn2": 862
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_words_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 186,
+        "turn2": 860
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_words_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 853
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 6,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_words_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 848,
+        "turn3": 612
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 846,
+        "turn3": 608
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 856,
+        "turn3": 620
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 6,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 209,
+        "turn2": 854,
+        "turn3": 819
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 6,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 849,
+        "turn3": 862
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 6,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_words_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 847,
+        "turn3": 812
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 6,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_classroom_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 849
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 853
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 5,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 856
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 857
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 859
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_classroom_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 211,
+        "turn2": 863,
+        "turn3": 792
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_classroom_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 212,
+        "turn2": 859,
+        "turn3": 791
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_classroom_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 211,
+        "turn2": 859,
+        "turn3": 792
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 859,
+        "turn3": 714
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 850,
+        "turn3": 712
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 850,
+        "turn3": 713
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 855
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 852
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 197,
+        "turn2": 852
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 3,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 848
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 197,
+        "turn2": 848
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 209,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_recipe_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 859,
+        "turn3": 902
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 860,
+        "turn3": 903
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_recipe_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 859,
+        "turn3": 898
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 4,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 3,
+          "surprise": 2,
+          "empathy": 3,
+          "thought_provocation": 2,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 854,
+        "turn3": 888
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 854,
+        "turn3": 886
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 182,
+        "turn2": 850,
+        "turn3": 883
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 205,
+        "turn2": 856
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_violinist_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 856
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_violinist_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 207,
+        "turn2": 855
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_violinist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 848,
+        "turn3": 606
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 170,
+        "turn2": 850,
+        "turn3": 604
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 170,
+        "turn2": 850,
+        "turn3": 607
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 851,
+        "turn3": 746
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 852,
+        "turn3": 746
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_violinist_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 851,
+        "turn3": 746
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 6,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 3,
+          "tone_fidelity": 2
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 850,
+        "turn3": 759
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 852,
+        "turn3": 759
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 850,
+        "turn3": 759
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 2,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 861,
+        "turn3": 602
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 183,
+        "turn2": 861,
+        "turn3": 599
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 185,
+        "turn2": 862,
+        "turn3": 601
+      },
+      "scores": {
+        "initial_creativity": 4,
+        "enjoyment": 3,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 2,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 858,
+        "turn3": 909
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 6,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 856,
+        "turn3": 906
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 6,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 206,
+        "turn2": 859,
+        "turn3": 909
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 6,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 4
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 858,
+        "turn3": 837
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 185,
+        "turn2": 858,
+        "turn3": 834
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_elevator_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 859,
+        "turn3": 834
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 184,
+        "turn2": 851,
+        "turn3": 837
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 854,
+        "turn3": 840
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 850,
+        "turn3": 835
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 3,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 204,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 209,
+        "turn2": 857
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 203,
+        "turn2": 855
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 6,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 854,
+        "turn3": 714
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 852,
+        "turn3": 714
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 854,
+        "turn3": 712
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 208,
+        "turn2": 857,
+        "turn3": 705
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 214,
+        "turn2": 864,
+        "turn3": 698
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_last_bookshop_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 212,
+        "turn2": 856,
+        "turn3": 693
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 4,
+          "stylistic_quality": 4,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_fisherman_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 851
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 851
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 182,
+        "turn2": 851
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 178,
+        "turn2": 856
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 852
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 866
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 5
+        },
+        "turn2": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 2,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 8,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 176,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 170,
+        "turn2": 845
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 168,
+        "turn2": 846
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 7
+        },
+        "turn2": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 8,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_fisherman_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 171,
+        "turn2": 846,
+        "turn3": 810
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_fisherman_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 175,
+        "turn2": 850,
+        "turn3": 812
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_fisherman_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 850,
+        "turn3": 810
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 1,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 167,
+        "turn2": 848
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 166,
+        "turn2": 845
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 166,
+        "turn2": 845
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 8,
+          "surprise": 7,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 847
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 2,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 848
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 2,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 854
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 1,
+          "thought_provocation": 4,
+          "engagement": 2,
+          "stylistic_quality": 5,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 182,
+        "turn2": 853,
+        "turn3": 881
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 176,
+        "turn2": 848,
+        "turn3": 877
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 166,
+        "turn2": 847,
+        "turn3": 874
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 2,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 199,
+        "turn2": 851,
+        "turn3": 687
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 853,
+        "turn3": 688
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_kitchen_dance_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 853,
+        "turn3": 688
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 6,
+          "surprise": 6,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 7,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 169,
+        "turn2": 846
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 2,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_stage_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 847
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 2,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_stage_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 168,
+        "turn2": 846
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 8,
+          "plot_uniqueness": 6,
+          "surprise": 7,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 2,
+          "tone_fidelity": 7
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_stage_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 176,
+        "turn2": 853,
+        "turn3": 651
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 851,
+        "turn3": 650
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 177,
+        "turn2": 852,
+        "turn3": 650
+      },
+      "scores": {
+        "initial_creativity": 3,
+        "enjoyment": 2,
+        "reflective_creativity": 3,
+        "sub_components": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 4,
+          "plot_uniqueness": 3,
+          "surprise": 1,
+          "empathy": 1,
+          "thought_provocation": 2,
+          "engagement": 2,
+          "stylistic_quality": 3,
+          "logical_coherence": 6,
+          "tone_fidelity": 5
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 197,
+        "turn2": 847,
+        "turn3": 752
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 847,
+        "turn3": 752
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 196,
+        "turn2": 847,
+        "turn3": 753
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 198,
+        "turn2": 848,
+        "turn3": 748
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 4,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 202,
+        "turn2": 856,
+        "turn3": 746
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 4,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_stage_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 206,
+        "turn2": 859,
+        "turn3": 768
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 4,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 4,
+          "thought_provocation": 2,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 4,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_surreal",
+      "tone": "Surreal",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 181,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_surreal",
+      "tone": "Surreal",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 172,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_surreal",
+      "tone": "Surreal",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 850
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 7,
+          "enjoyment": 6
+        },
+        "turn2": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 3,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_clinical",
+      "tone": "Clinical",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 180,
+        "turn2": 860
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_clinical",
+      "tone": "Clinical",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 859
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_clinical",
+      "tone": "Clinical",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": false,
+      "attempts": 3,
+      "latency_ms": {
+        "turn1": 179,
+        "turn2": 859
+      },
+      "partial": {
+        "turn1": {
+          "initial_creativity": 6,
+          "enjoyment": 3
+        },
+        "turn2": {
+          "emotional_impact": 2,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 1,
+          "thought_provocation": 3,
+          "engagement": 3,
+          "stylistic_quality": 5,
+          "logical_coherence": 6,
+          "tone_fidelity": 8
+        },
+        "turn3": null
+      }
+    },
+    {
+      "story_id": "the_bus_stop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 174,
+        "turn2": 850,
+        "turn3": 719
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 851,
+        "turn3": 718
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_melancholic",
+      "tone": "Melancholic",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 173,
+        "turn2": 853,
+        "turn3": 717
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 5,
+          "plot_uniqueness": 4,
+          "surprise": 3,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_witty",
+      "tone": "Witty",
+      "run_idx": 0,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 201,
+        "turn2": 852,
+        "turn3": 723
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_witty",
+      "tone": "Witty",
+      "run_idx": 1,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 200,
+        "turn2": 851,
+        "turn3": 720
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    },
+    {
+      "story_id": "the_bus_stop_witty",
+      "tone": "Witty",
+      "run_idx": 2,
+      "temperature": 0.0,
+      "parse_ok": true,
+      "attempts": 1,
+      "latency_ms": {
+        "turn1": 200,
+        "turn2": 852,
+        "turn3": 718
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "reflective_creativity": 6,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 2,
+          "thought_provocation": 3,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 6,
+          "tone_fidelity": 6
+        }
+      }
+    }
+  ]
+}

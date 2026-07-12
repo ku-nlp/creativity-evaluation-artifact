@@ -1,0 +1,5 @@
+spike_tone,component,target_mean,between_group_delta,most_sacrificed,sacrificed_mean,sacrifice_gap_vs_avg,kind
+surreal,Novelty,6.582666666666667,1.2360000000000007,Resonance,5.042666666666667,0.17416666666666725,expressive
+clinical,Adherence,6.964,0.0773333333333337,Resonance,3.7193333333333336,-1.1491666666666664,constraint/composite
+melancholic,Resonance,6.266666666666667,1.8642222222222218,Novelty,4.944,-0.7116666666666669,expressive
+witty,Value,6.46,0.2777777777777777,Resonance,4.445333333333333,-0.4231666666666669,constraint/composite

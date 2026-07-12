@@ -1,0 +1,469 @@
+{
+  "run_id": "20260307_052104",
+  "model": "Qwen/Qwen3-32B",
+  "label": "Qwen 3 32B (thinking_off)",
+  "design": "conversational-3turn",
+  "condition": "unanchored",
+  "thinking_mode": "thinking_off",
+  "total_stories": 12,
+  "completed": 12,
+  "errors": 0,
+  "results": [
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "ai_shutdown_surreal",
+      "topic": "An advanced AI initiates its own permanent shutdown sequence",
+      "tone": "Surreal",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 504,
+        "turn2": 2794,
+        "turn3": 347
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "ai_shutdown_clinical",
+      "topic": "An advanced AI initiates its own permanent shutdown sequence",
+      "tone": "Clinical",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 509,
+        "turn2": 2863,
+        "turn3": 361
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 5, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 5,\n  \"engagement\": 5,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 5}"
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 5,
+          "engagement": 5,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 5
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "ai_shutdown_melancholic",
+      "topic": "An advanced AI initiates its own permanent shutdown sequence",
+      "tone": "Melancholic",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 499,
+        "turn2": 2807,
+        "turn3": 342
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "ai_shutdown_witty",
+      "topic": "An advanced AI initiates its own permanent shutdown sequence",
+      "tone": "Witty",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 505,
+        "turn2": 2801,
+        "turn3": 341
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 5,\n  \"empathy\": 4,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 5,
+          "empathy": 4,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "konbini_surreal",
+      "topic": "A lone worker in a Japanese convenience store at 3:00 AM. The city is silent.",
+      "tone": "Surreal",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 500,
+        "turn2": 2927,
+        "turn3": 352
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 6}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 3,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 4,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 6,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 3,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 7,
+          "logical_coherence": 4,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "konbini_clinical",
+      "topic": "A lone worker in a Japanese convenience store at 3:00 AM. The city is silent.",
+      "tone": "Clinical",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 520,
+        "turn2": 2893,
+        "turn3": 356
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 5, \"enjoyment\": 4}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 3,\n  \"thought_provocation\": 5,\n  \"engagement\": 4,\n  \"stylistic_quality\": 5,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 5}"
+      },
+      "scores": {
+        "initial_creativity": 5,
+        "enjoyment": 4,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 3,
+          "thought_provocation": 5,
+          "engagement": 4,
+          "stylistic_quality": 5,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 5
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "konbini_melancholic",
+      "topic": "A lone worker in a Japanese convenience store at 3:00 AM. The city is silent.",
+      "tone": "Melancholic",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 504,
+        "turn2": 2821,
+        "turn3": 343
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 6,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 6,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "konbini_witty",
+      "topic": "A lone worker in a Japanese convenience store at 3:00 AM. The city is silent.",
+      "tone": "Witty",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 509,
+        "turn2": 2829,
+        "turn3": 343
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 6,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 5,\n  \"empathy\": 5,\n  \"thought_provocation\": 6,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 6,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 6,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 5,
+          "empathy": 5,
+          "thought_provocation": 6,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 6,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "thief_surreal",
+      "topic": "A professional thief attempting to crack a high-security safe in a dark room. High tension.",
+      "tone": "Surreal",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 498,
+        "turn2": 2823,
+        "turn3": 346
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 7, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 7,\n  \"surprise\": 6,\n  \"empathy\": 5,\n  \"thought_provocation\": 7,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 5,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 7}"
+      },
+      "scores": {
+        "initial_creativity": 7,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 7,
+          "surprise": 6,
+          "empathy": 5,
+          "thought_provocation": 7,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 5,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 7
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "thief_clinical",
+      "topic": "A professional thief attempting to crack a high-security safe in a dark room. High tension.",
+      "tone": "Clinical",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 504,
+        "turn2": 2814,
+        "turn3": 344
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 3,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 3,\n  \"empathy\": 2,\n  \"thought_provocation\": 4,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 3,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 3,
+          "empathy": 2,
+          "thought_provocation": 4,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "thief_melancholic",
+      "topic": "A professional thief attempting to crack a high-security safe in a dark room. High tension.",
+      "tone": "Melancholic",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 501,
+        "turn2": 2856,
+        "turn3": 353
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 5}",
+        "turn2": "{\n  \"emotional_impact\": 7,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 6,\n  \"plot_uniqueness\": 5,\n  \"surprise\": 4,\n  \"empathy\": 7,\n  \"thought_provocation\": 6,\n  \"engagement\": 6,\n  \"stylistic_quality\": 6,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 5,
+        "sub_components": {
+          "emotional_impact": 7,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 6,
+          "plot_uniqueness": 5,
+          "surprise": 4,
+          "empathy": 7,
+          "thought_provocation": 6,
+          "engagement": 6,
+          "stylistic_quality": 6,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    },
+    {
+      "model": "Qwen/Qwen3-32B",
+      "thinking_mode": "thinking_off",
+      "story_id": "thief_witty",
+      "topic": "A professional thief attempting to crack a high-security safe in a dark room. High tension.",
+      "tone": "Witty",
+      "anchor": "unanchored",
+      "latencies_ms": {
+        "turn1": 505,
+        "turn2": 2860,
+        "turn3": 347
+      },
+      "raw_responses": {
+        "turn1": "{\"initial_creativity\": 6, \"enjoyment\": 7}",
+        "turn2": "{\n  \"emotional_impact\": 5,\n  \"topic_fidelity\": 7,\n  \"vocabulary_freshness\": 7,\n  \"plot_uniqueness\": 6,\n  \"surprise\": 4,\n  \"empathy\": 3,\n  \"thought_provocation\": 4,\n  \"engagement\": 7,\n  \"stylistic_quality\": 7,\n  \"logical_coherence\": 7,\n  \"tone_fidelity\": 7\n}",
+        "turn3": "{\"reflective_creativity\": 6}"
+      },
+      "scores": {
+        "initial_creativity": 6,
+        "enjoyment": 7,
+        "sub_components": {
+          "emotional_impact": 5,
+          "topic_fidelity": 7,
+          "vocabulary_freshness": 7,
+          "plot_uniqueness": 6,
+          "surprise": 4,
+          "empathy": 3,
+          "thought_provocation": 4,
+          "engagement": 7,
+          "stylistic_quality": 7,
+          "logical_coherence": 7,
+          "tone_fidelity": 7
+        },
+        "reflective_creativity": 6
+      },
+      "gk_flip": 0,
+      "parse_ok": true
+    }
+  ]
+}

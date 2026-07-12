@@ -1,0 +1,5 @@
+type,n_raters,revise_pct,revise_lo,revise_hi,shift,shift_lo,shift_hi
+Clinical,30,43.3333,26.6667,60.0,0.6923,0.0,1.4
+Melancholic,29,20.6897,6.8966,34.4828,-1.0,-2.0,0.0
+Surreal,29,48.2759,31.0345,65.5172,-0.3571,-1.0,0.3333
+Witty,27,29.6296,14.8148,48.1481,-0.625,-1.0,0.2

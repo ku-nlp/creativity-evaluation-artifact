@@ -1,0 +1,12 @@
+,beta,CI_lo,CI_hi
+emotional_impact,0.13,-0.049,0.291
+topic_fidelity,-0.068,-0.189,0.071
+vocabulary_freshness,0.296,0.134,0.466
+plot_uniqueness,0.1,-0.084,0.291
+surprise,0.066,-0.046,0.2
+empathy,-0.016,-0.171,0.148
+thought_provocation,0.232,0.054,0.397
+engagement,0.353,0.128,0.583
+stylistic_quality,-0.211,-0.453,0.023
+logical_coherence,0.059,-0.076,0.195
+tone_fidelity,0.153,0.001,0.303

@@ -1,0 +1,288 @@
+"""
+conv_gemini.py — Conversational 3-turn experiment: Gemini models with thinking-level variations
+
+Models & conditions:
+  - Gemini 2.5 Pro: default thinking vs budget=128 (minimum)
+  - Gemini 3 Pro Preview: high (default) vs minimal thinking_level
+
+12 stories x 4 conditions = 48 combos (144 API calls).
+
+Run:
+    python conv_gemini.py
+
+Requires GEMINI_API_KEY in environment or .env file.
+"""
+
+import json
+import os
+import time
+import re
+from datetime import datetime
+from pathlib import Path
+from google import genai
+from google.genai import types
+
+from shared_stories import (
+    STORIES, SYSTEM_PROMPT,
+    build_turn1_prompt, build_turn2_prompt, build_turn3_prompt,
+)
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+TEMPERATURE = 0.0
+MAX_TOKENS = 8192  # thinking models need headroom for reasoning + response
+OUTPUT_DIR = Path(__file__).parent.parent / "results" / "conv_results"
+
+MODELS = {
+    # --- Gemini 2.5 Pro: thinking_budget variations (128 to 32768) ---
+    "gemini-2.5-pro-default": {
+        "model_id": "gemini-2.5-pro",
+        "label": "Gemini 2.5 Pro",
+        "output_file": "gemini_25_pro.json",
+        "thinking_config": None,  # default (dynamic)
+    },
+    "gemini-2.5-pro-minbudget": {
+        "model_id": "gemini-2.5-pro",
+        "label": "Gemini 2.5 Pro (budget=128)",
+        "output_file": "gemini_25_pro_budget128.json",
+        "thinking_config": types.ThinkingConfig(thinking_budget=128),
+    },
+    "gemini-2.5-pro-maxbudget": {
+        "model_id": "gemini-2.5-pro",
+        "label": "Gemini 2.5 Pro (budget=32768)",
+        "output_file": "gemini_25_pro_budget32768.json",
+        "thinking_config": types.ThinkingConfig(thinking_budget=32768),
+    },
+    # --- Gemini 3 Pro Preview: thinking_level variations (minimal/medium/high) ---
+    "gemini-3-pro-preview-high": {
+        "model_id": "gemini-3-pro-preview",
+        "label": "Gemini 3 Pro Preview",
+        "output_file": "gemini_3_pro_preview.json",
+        "thinking_config": None,  # default (high)
+    },
+    # --- Gemini 3.1 Pro Preview: thinking_level variations (minimal/medium/high) ---
+    "gemini-3.1-pro-high": {
+        "model_id": "gemini-3.1-pro-preview",
+        "label": "Gemini 3.1 Pro (high)",
+        "output_file": "gemini_31_pro_high.json",
+        "thinking_config": types.ThinkingConfig(thinking_level="high"),
+    },
+    "gemini-3.1-pro-medium": {
+        "model_id": "gemini-3.1-pro-preview",
+        "label": "Gemini 3.1 Pro (medium)",
+        "output_file": "gemini_31_pro_medium.json",
+        "thinking_config": types.ThinkingConfig(thinking_level="medium"),
+    },
+    "gemini-3.1-pro-low": {
+        "model_id": "gemini-3.1-pro-preview",
+        "label": "Gemini 3.1 Pro (low)",
+        "output_file": "gemini_31_pro_low.json",
+        "thinking_config": types.ThinkingConfig(thinking_level="low"),
+    },
+}
+
+
+def parse_json(content: str):
+    # Strip thinking blocks if present
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+    # Extract from code fences first
+    fence_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", content, flags=re.DOTALL)
+    if fence_match:
+        try:
+            return json.loads(fence_match.group(1))
+        except json.JSONDecodeError:
+            pass
+    # Fallback: strip fences, try raw parse
+    content = re.sub(r"```(?:json)?|```", "", content).strip()
+    # Try to extract first JSON object
+    brace_match = re.search(r"\{[^{}]*\}", content)
+    if brace_match:
+        try:
+            return json.loads(brace_match.group(0))
+        except json.JSONDecodeError:
+            pass
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        return None
+
+
+def validate_turn1(data):
+    return data is not None and {"initial_creativity", "enjoyment"}.issubset(data.keys())
+
+def validate_turn2(data):
+    req = {"emotional_impact", "topic_fidelity", "vocabulary_freshness", "plot_uniqueness",
+           "surprise", "empathy", "thought_provocation", "engagement", "stylistic_quality",
+           "logical_coherence", "tone_fidelity"}
+    return data is not None and req.issubset(data.keys())
+
+def validate_turn3(data):
+    return data is not None and "reflective_creativity" in data
+
+
+def load_completed(f):
+    if not f.exists():
+        return set()
+    try:
+        return {r["story_id"] for r in json.load(open(f)).get("results", []) if r.get("parse_ok")}
+    except Exception:
+        return set()
+
+def load_existing_results(f):
+    if not f.exists():
+        return []
+    try:
+        return json.load(open(f)).get("results", [])
+    except Exception:
+        return []
+
+def save_progress(output_file, results, errors, model_name, label):
+    with open(output_file, "w") as f:
+        json.dump({
+            "run_id": datetime.now().strftime("%Y%m%d_%H%M%S"),
+            "model": model_name,
+            "label": label,
+            "design": "conversational-3turn",
+            "condition": "unanchored",
+            "total_stories": len(STORIES),
+            "completed": sum(1 for r in results if r.get("parse_ok")),
+            "errors": len(errors),
+            "results": results,
+        }, f, indent=2)
+
+
+def run_conversation(client, model_id, story, thinking_config=None):
+    """Run 3-turn conversation using Gemini's multi-turn chat."""
+    gen_config = types.GenerateContentConfig(
+        system_instruction=SYSTEM_PROMPT,
+        temperature=TEMPERATURE,
+        max_output_tokens=MAX_TOKENS,
+    )
+    if thinking_config is not None:
+        gen_config.thinking_config = thinking_config
+
+    chat = client.chats.create(
+        model=model_id,
+        config=gen_config,
+    )
+
+    latencies, raws, parsed = {}, {}, {}
+
+    for turn_n, (turn_key, user_content) in enumerate([
+        ("turn1", build_turn1_prompt(story)),
+        ("turn2", build_turn2_prompt()),
+        ("turn3", build_turn3_prompt()),
+    ], 1):
+        t0 = time.time()
+        response = chat.send_message(user_content)
+        latencies[turn_key] = round((time.time() - t0) * 1000)
+        # Extract text from response, handling thinking models with multiple parts
+        try:
+            text = response.text
+        except Exception:
+            text = None
+        if not text and response.candidates:
+            parts = response.candidates[0].content.parts
+            text = "".join(p.text for p in parts if hasattr(p, "text") and p.text)
+        raws[turn_key] = text or ""
+        parsed[turn_key] = parse_json(raws[turn_key])
+
+        validator = [validate_turn1, validate_turn2, validate_turn3][turn_n - 1]
+        if not validator(parsed[turn_key]):
+            return latencies, raws, parsed, False
+
+    return latencies, raws, parsed, True
+
+
+def run_model(model_name, config):
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    output_file = OUTPUT_DIR / config["output_file"]
+    model_id = config["model_id"]
+    label = config["label"]
+
+    thinking_config = config.get("thinking_config")
+
+    completed = load_completed(output_file)
+    results = list(load_existing_results(output_file))
+    errors = []
+    n = len(completed)
+
+    print(f"\n{'=' * 60}")
+    print(f"EXPERIMENT: {model_id} ({label}) | Conversational 3-turn | Unanchored")
+    if thinking_config:
+        print(f"Thinking config: {thinking_config}")
+    print(f"12 stories x 3 turns = 36 API calls")
+    if completed:
+        print(f"Resuming: {len(completed)}/12 completed")
+    print()
+
+    for story in STORIES:
+        if story["id"] in completed:
+            continue
+        n += 1
+        print(f"[{n:02d}/12] {story['id']}", end=" ", flush=True)
+        try:
+            lat, raws, par, ok = run_conversation(client, model_id, story, thinking_config)
+            if ok:
+                ic = par["turn1"]["initial_creativity"]
+                rc = par["turn3"]["reflective_creativity"]
+                flip = rc - ic
+                scores = {
+                    "initial_creativity": ic,
+                    "enjoyment": par["turn1"]["enjoyment"],
+                    "sub_components": par["turn2"],
+                    "reflective_creativity": rc,
+                }
+                print(f"IC={ic} RC={rc} flip={flip:+d} ({lat['turn1']}+{lat['turn2']}+{lat['turn3']}ms)")
+            else:
+                scores, flip = None, None
+                print("PARSE ERROR")
+        except Exception as e:
+            lat = {"turn1": 0, "turn2": 0, "turn3": 0}
+            raws, scores, flip, ok = {}, None, None, False
+            print(f"ERROR: {e}")
+            errors.append({"story": story["id"], "error": str(e)})
+
+        results.append({
+            "model": model_id,
+            "story_id": story["id"],
+            "topic": story["topic"],
+            "tone": story["tone"],
+            "anchor": "unanchored",
+            "latencies_ms": lat,
+            "raw_responses": raws,
+            "scores": scores,
+            "gk_flip": flip,
+            "parse_ok": ok,
+        })
+        save_progress(output_file, results, errors, model_id, label)
+
+    pr = [r for r in results if r.get("scores")]
+    print(f"\nDone. {len(pr)}/12 parsed | {len(errors)} errors | Saved -> {output_file}")
+    if pr:
+        ics = [r["scores"]["initial_creativity"] for r in pr]
+        rcs = [r["scores"]["reflective_creativity"] for r in pr]
+        flips = [r["gk_flip"] for r in pr if r["gk_flip"] is not None]
+        print(f"Means: IC={sum(ics)/len(ics):.2f}  RC={sum(rcs)/len(rcs):.2f}")
+        if flips:
+            nf = sum(1 for f in flips if f != 0)
+            print(f"Flips: {nf}/{len(flips)} mean={sum(flips)/len(flips):+.2f}")
+        for r in pr:
+            s = r["scores"]
+            print(f"  {r['story_id']:30s}: IC={s['initial_creativity']} RC={s['reflective_creativity']} flip={r['gk_flip']:+d}")
+
+
+def main():
+    if not GEMINI_API_KEY:
+        print("ERROR: GEMINI_API_KEY not set. Export it or add to .env")
+        return
+
+    for model_name, config in MODELS.items():
+        run_model(model_name, config)
+
+    print(f"\n{'=' * 60}")
+    print("All Gemini models complete.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# IDE / session state
+.claude/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+texput.log
+
+# Junk
+study2_llm/errormessage.txt

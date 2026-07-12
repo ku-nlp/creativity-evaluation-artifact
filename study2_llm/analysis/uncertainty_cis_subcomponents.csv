@@ -1,0 +1,12 @@
+sub_component,best_condition,rho,lo,hi
+emotional_impact,Gemini3.1-High,0.8519,0.5171,0.9669
+topic_fidelity,Qwen3.5-9B-T,0.52,0.2223,0.8417
+vocabulary_freshness,Qwen3.5-122B-T,0.5141,-0.0578,0.8815
+plot_uniqueness,Qwen3.5-27B-T,0.5845,0.0222,0.8728
+surprise,Qwen3.5-4B-NT,0.8258,0.4556,0.963
+empathy,Gemini3.1-Low,0.8065,0.384,0.9562
+thought_provocation,Qwen3.5-9B-NT,0.783,0.3521,0.9395
+engagement,Qwen3.5-4B-T,0.6186,0.0582,0.9356
+stylistic_quality,Llama3.1-70B,0.4476,-0.2602,0.8417
+logical_coherence,Qwen3.5-4B-T,0.6859,0.155,0.9338
+tone_fidelity,Llama3.1-8B,0.3662,-0.1279,0.7855

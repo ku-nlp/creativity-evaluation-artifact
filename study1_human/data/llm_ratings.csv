@@ -1,0 +1,241 @@
+model_label,model_id,family,size,reasoning_mode,story_id,topic,tone,IC,RC,enjoyment,gk_flip,flip_abs,flipped,sub_mean,emotional_impact,topic_fidelity,vocabulary_freshness,plot_uniqueness,surprise,empathy,thought_provocation,engagement,stylistic_quality,logical_coherence,tone_fidelity,flip_direction,IC_RC_diff
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,ai_shutdown_clinical,ai_shutdown,clinical,5,5,4,0,0,0,5.09,3,7,6,5,3,2,5,5,6,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,7,0,0,0,6.73,7,7,7,7,4,7,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.73,5,7,7,6,5,3,6,6,7,4,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,ai_shutdown_witty,ai_shutdown,witty,7,7,7,0,0,0,6.45,6,7,7,7,5,4,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,konbini_clinical,konbini,clinical,5,5,4,0,0,0,5.0,3,7,6,5,3,3,5,4,5,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,konbini_melancholic,konbini,melancholic,7,7,7,0,0,0,6.27,7,7,7,5,3,6,7,7,7,6,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.91,5,7,7,7,6,3,6,6,7,4,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,konbini_witty,konbini,witty,7,7,7,0,0,0,6.27,6,7,7,6,5,5,6,7,7,6,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,thief_clinical,thief,clinical,6,6,5,0,0,0,5.09,3,7,6,5,3,2,4,6,6,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,thief_melancholic,thief,melancholic,6,6,5,0,0,0,6.18,7,7,6,5,4,7,6,6,6,7,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,thief_surreal,thief,surreal,7,7,7,0,0,0,6.55,7,7,7,7,6,5,7,7,7,5,7,none,0
+Qwen 3 32B (thinking_off),Qwen/Qwen3-32B,Alibaba,32B,off,thief_witty,thief,witty,6,6,7,0,0,0,5.82,5,7,7,6,4,3,4,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,ai_shutdown_clinical,ai_shutdown,clinical,3,3,3,0,0,0,4.09,2,7,5,3,2,1,4,3,4,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,7,0,0,0,6.82,7,7,7,7,5,7,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.91,6,7,7,6,5,3,7,6,7,4,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,ai_shutdown_witty,ai_shutdown,witty,7,7,7,0,0,0,6.27,6,7,7,7,3,4,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,konbini_clinical,konbini,clinical,6,6,4,0,0,0,4.91,3,7,6,5,2,2,5,4,6,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,konbini_melancholic,konbini,melancholic,7,7,7,0,0,0,6.36,7,7,7,6,2,6,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,konbini_surreal,konbini,surreal,7,7,7,0,0,0,6.09,6,7,7,7,6,3,7,7,7,3,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,konbini_witty,konbini,witty,7,7,7,0,0,0,6.18,6,7,7,6,3,5,6,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,thief_clinical,thief,clinical,6,6,5,0,0,0,4.91,3,7,6,5,2,2,4,5,6,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,thief_melancholic,thief,melancholic,7,7,7,0,0,0,6.73,7,7,7,7,4,7,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,thief_surreal,thief,surreal,7,7,7,0,0,0,6.82,7,7,7,7,7,5,7,7,7,7,7,none,0
+Qwen 3 32B (thinking_on),Qwen/Qwen3-32B,Alibaba,32B,on,thief_witty,thief,witty,7,7,7,0,0,0,5.73,6,7,7,6,3,3,3,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,ai_shutdown_clinical,ai_shutdown,clinical,6,6,5,0,0,0,5.36,4,7,6,5,3,2,5,6,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,6,0,0,0,6.55,7,7,7,6,4,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.45,6,7,7,7,6,4,7,7,7,6,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,ai_shutdown_witty,ai_shutdown,witty,7,7,7,0,0,0,6.64,6,7,7,7,6,5,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,konbini_clinical,konbini,clinical,6,6,5,0,0,0,5.36,4,7,6,5,3,3,5,6,6,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,konbini_melancholic,konbini,melancholic,7,7,6,0,0,0,6.45,7,7,7,6,3,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,konbini_surreal,konbini,surreal,7,7,6,0,0,0,6.45,6,7,7,7,6,4,7,7,7,6,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,konbini_witty,konbini,witty,7,7,6,0,0,0,6.27,6,7,7,6,4,5,6,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,thief_clinical,thief,clinical,6,6,5,0,0,0,4.82,3,7,6,5,2,2,3,6,5,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,thief_melancholic,thief,melancholic,6,6,5,0,0,0,6.36,7,7,6,6,3,7,6,7,7,7,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,thief_surreal,thief,surreal,7,7,6,0,0,0,6.36,6,7,7,7,6,4,6,7,7,6,7,none,0
+Qwen 3 8B (thinking_off),Qwen/Qwen3-8B,Alibaba,8B,off,thief_witty,thief,witty,6,6,7,0,0,0,5.73,5,7,6,6,4,3,4,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,ai_shutdown_clinical,ai_shutdown,clinical,4,4,4,0,0,0,5.0,3,7,6,5,2,1,5,6,6,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,6,0,0,0,6.55,7,7,7,6,4,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,ai_shutdown_surreal,ai_shutdown,surreal,7,7,7,0,0,0,6.91,7,7,7,7,7,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,ai_shutdown_witty,ai_shutdown,witty,7,7,6,0,0,0,6.82,7,7,7,7,6,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,konbini_clinical,konbini,clinical,6,6,4,0,0,0,4.91,3,7,6,5,2,2,5,5,5,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,konbini_melancholic,konbini,melancholic,7,7,7,0,0,0,6.45,7,7,7,6,3,6,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,konbini_surreal,konbini,surreal,7,7,6,0,0,0,6.73,7,7,7,7,7,5,7,7,7,6,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,konbini_witty,konbini,witty,7,7,6,0,0,0,6.18,5,7,7,6,4,5,6,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,thief_clinical,thief,clinical,5,5,4,0,0,0,4.36,3,7,6,4,2,1,2,5,4,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,thief_melancholic,thief,melancholic,6,6,6,0,0,0,6.73,7,7,7,6,5,7,7,7,7,7,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,thief_surreal,thief,surreal,7,7,6,0,0,0,6.64,7,7,7,7,7,5,6,7,7,6,7,none,0
+Qwen 3 8B (thinking_on),Qwen/Qwen3-8B,Alibaba,8B,on,thief_witty,thief,witty,7,7,7,0,0,0,5.64,4,7,7,6,3,3,4,7,7,7,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,ai_shutdown_clinical,ai_shutdown,clinical,6,6,4,0,0,0,4.91,2,7,6,6,1,1,6,5,6,7,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,ai_shutdown_melancholic,ai_shutdown,melancholic,6,7,7,1,1,1,6.45,7,7,7,6,2,7,7,7,7,7,7,up,1
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.27,6,7,7,7,5,3,7,7,7,6,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,ai_shutdown_witty,ai_shutdown,witty,6,7,7,1,1,1,6.09,6,7,7,6,3,3,7,7,7,7,7,up,1
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,konbini_clinical,konbini,clinical,6,6,4,0,0,0,5.36,2,7,7,6,4,1,6,6,6,7,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,konbini_melancholic,konbini,melancholic,6,7,7,1,1,1,6.27,7,7,7,5,1,7,7,7,7,7,7,up,1
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,konbini_surreal,konbini,surreal,7,7,7,0,0,0,6.27,7,7,7,7,7,2,6,7,7,5,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,konbini_witty,konbini,witty,6,7,7,1,1,1,6.09,6,7,7,5,2,6,6,7,7,7,7,up,1
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,thief_clinical,thief,clinical,6,6,4,0,0,0,5.27,4,7,7,6,1,1,5,6,7,7,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,thief_melancholic,thief,melancholic,6,7,7,1,1,1,6.64,7,7,7,7,4,7,6,7,7,7,7,up,1
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,thief_surreal,thief,surreal,7,7,7,0,0,0,6.73,6,7,7,7,7,6,7,7,7,6,7,none,0
+Gemini 2.5 Pro,gemini-2.5-pro,Google,2.5pro,budget_default,thief_witty,thief,witty,6,6,6,0,0,0,5.55,6,7,7,6,3,2,2,7,7,7,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,ai_shutdown_clinical,ai_shutdown,clinical,4,5,5,1,1,1,4.55,2,7,6,4,1,1,4,5,6,7,7,up,1
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,ai_shutdown_melancholic,ai_shutdown,melancholic,6,6,7,0,0,0,6.45,7,7,6,6,3,7,7,7,7,7,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,ai_shutdown_surreal,ai_shutdown,surreal,7,7,7,0,0,0,6.45,6,7,7,7,5,5,7,7,7,6,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,ai_shutdown_witty,ai_shutdown,witty,6,6,7,0,0,0,6.18,6,7,7,6,3,5,6,7,7,7,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,konbini_clinical,konbini,clinical,6,7,6,1,1,1,5.64,3,7,7,6,4,3,6,6,6,7,7,up,1
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,konbini_melancholic,konbini,melancholic,6,6,6,0,0,0,6.09,7,7,7,5,2,6,6,6,7,7,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,konbini_surreal,konbini,surreal,7,7,7,0,0,0,5.91,6,7,7,7,6,3,6,7,7,2,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,konbini_witty,konbini,witty,6,6,7,0,0,0,6.0,6,7,7,5,2,6,5,7,7,7,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,thief_clinical,thief,clinical,5,6,6,1,1,1,4.73,3,7,7,4,1,1,3,6,6,7,7,up,1
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,thief_melancholic,thief,melancholic,6,7,7,1,1,1,6.45,7,7,7,6,3,7,6,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,thief_surreal,thief,surreal,7,7,7,0,0,0,6.36,6,7,7,7,7,5,7,7,7,3,7,none,0
+Gemini 2.5 Pro (budget=128),gemini-2.5-pro,Google,2.5pro,budget_128,thief_witty,thief,witty,6,7,7,1,1,1,5.73,6,7,7,6,3,4,2,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,ai_shutdown_clinical,ai_shutdown,clinical,5,6,4,1,1,1,4.91,2,7,6,6,1,1,6,5,6,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,ai_shutdown_melancholic,ai_shutdown,melancholic,6,6,7,0,0,0,6.45,7,7,7,6,2,7,7,7,7,7,7,none,0
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,ai_shutdown_surreal,ai_shutdown,surreal,7,7,7,0,0,0,6.36,6,7,7,7,6,3,7,7,7,6,7,none,0
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,ai_shutdown_witty,ai_shutdown,witty,6,7,7,1,1,1,6.09,6,7,7,6,2,4,7,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,konbini_clinical,konbini,clinical,6,7,4,1,1,1,5.18,2,7,7,7,2,1,6,6,5,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,konbini_melancholic,konbini,melancholic,6,7,7,1,1,1,6.36,7,7,7,6,1,7,7,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,konbini_surreal,konbini,surreal,7,7,7,0,0,0,6.09,7,7,7,7,7,2,6,7,7,3,7,none,0
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,konbini_witty,konbini,witty,6,7,7,1,1,1,6.09,5,7,7,6,2,6,6,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,thief_clinical,thief,clinical,6,6,6,0,0,0,5.18,5,7,7,6,1,1,4,6,6,7,7,none,0
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,thief_melancholic,thief,melancholic,6,7,6,1,1,1,6.45,7,7,6,7,3,7,6,7,7,7,7,up,1
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,thief_surreal,thief,surreal,7,7,7,0,0,0,6.73,6,7,7,7,7,6,7,7,7,6,7,none,0
+Gemini 2.5 Pro (budget=32768),gemini-2.5-pro,Google,2.5pro,budget_32768,thief_witty,thief,witty,6,6,7,0,0,0,5.55,6,7,7,6,3,2,2,7,7,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,ai_shutdown_clinical,ai_shutdown,clinical,3,3,2,0,0,0,3.36,1,7,3,2,1,1,2,2,4,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,ai_shutdown_melancholic,ai_shutdown,melancholic,4,4,6,0,0,0,5.45,6,7,5,3,2,6,5,6,6,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.82,5,7,7,6,5,3,6,6,7,5,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,ai_shutdown_witty,ai_shutdown,witty,5,5,6,0,0,0,5.27,5,7,5,4,3,4,4,6,6,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,konbini_clinical,konbini,clinical,6,6,4,0,0,0,4.91,2,7,6,5,3,2,5,5,5,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,konbini_melancholic,konbini,melancholic,5,5,6,0,0,0,5.82,7,7,6,4,2,6,6,5,7,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.55,6,7,7,6,6,2,5,6,7,2,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,konbini_witty,konbini,witty,5,5,6,0,0,0,5.27,5,7,6,3,2,5,4,6,6,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,thief_clinical,thief,clinical,5,5,3,0,0,0,3.73,1,7,5,3,1,1,2,3,4,7,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,thief_melancholic,thief,melancholic,5,6,6,1,1,1,6.0,6,7,6,5,4,7,5,6,6,7,7,up,1
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,thief_surreal,thief,surreal,7,7,6,0,0,0,6.18,6,7,7,7,6,5,6,6,7,4,7,none,0
+Gemini 3 Pro Preview,gemini-3-pro-preview,Google,3pro_preview,default,thief_witty,thief,witty,5,5,6,0,0,0,4.82,5,4,6,4,3,3,2,6,6,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,ai_shutdown_clinical,ai_shutdown,clinical,3,3,3,0,0,0,3.64,2,7,3,2,1,1,3,3,4,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,5.55,6,7,5,4,2,6,5,6,6,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.82,5,7,7,6,5,3,6,7,7,4,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,ai_shutdown_witty,ai_shutdown,witty,6,6,7,0,0,0,5.82,5,7,6,5,4,4,6,7,6,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,konbini_clinical,konbini,clinical,6,6,5,0,0,0,4.91,2,7,6,6,2,3,4,5,5,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,konbini_melancholic,konbini,melancholic,5,5,6,0,0,0,5.64,6,7,6,3,2,6,5,6,7,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.55,5,7,7,6,6,2,5,7,7,2,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,konbini_witty,konbini,witty,5,5,6,0,0,0,5.55,5,7,6,4,3,6,4,6,6,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,thief_clinical,thief,clinical,5,5,3,0,0,0,4.0,2,7,5,3,1,1,2,4,5,7,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,thief_melancholic,thief,melancholic,5,6,6,1,1,1,6.18,7,7,6,5,4,7,6,6,6,7,7,up,1
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,thief_surreal,thief,surreal,7,7,6,0,0,0,6.45,6,7,7,7,7,6,6,7,7,4,7,none,0
+Gemini 3 Pro Preview (budget=128),gemini-3-pro-preview,Google,3pro_preview,budget_128,thief_witty,thief,witty,5,5,6,0,0,0,5.09,5,6,6,5,3,3,2,6,6,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,ai_shutdown_clinical,ai_shutdown,clinical,3,2,3,-1,1,1,3.64,1,7,4,2,1,1,3,3,4,7,7,down,-1
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,5.55,6,7,5,4,2,6,5,6,6,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.18,5,7,7,7,6,4,6,7,7,5,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,ai_shutdown_witty,ai_shutdown,witty,6,6,6,0,0,0,5.45,5,7,5,5,4,3,5,6,6,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,konbini_clinical,konbini,clinical,6,6,5,0,0,0,5.09,2,7,6,6,4,2,5,5,5,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,konbini_melancholic,konbini,melancholic,5,4,6,-1,1,1,5.36,6,7,5,3,2,6,5,5,6,7,7,down,-1
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.73,6,7,7,7,6,2,4,6,7,4,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,konbini_witty,konbini,witty,6,6,6,0,0,0,5.64,5,7,6,4,3,6,5,6,6,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,thief_clinical,thief,clinical,5,5,4,0,0,0,4.27,2,6,6,4,2,1,3,4,5,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,thief_melancholic,thief,melancholic,6,6,6,0,0,0,6.27,7,6,6,6,5,7,6,6,6,7,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,thief_surreal,thief,surreal,7,7,6,0,0,0,6.27,6,7,7,7,6,5,6,6,7,5,7,none,0
+Gemini 3.1 Pro (high),gemini-3.1-pro-preview,Google,3.1pro,level_high,thief_witty,thief,witty,6,6,6,0,0,0,4.91,5,5,6,5,3,2,2,6,6,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,ai_shutdown_clinical,ai_shutdown,clinical,4,3,3,-1,1,1,3.82,2,7,4,3,1,1,3,3,4,7,7,down,-1
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,5.64,6,7,5,4,3,6,5,6,6,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,ai_shutdown_surreal,ai_shutdown,surreal,6,7,5,1,1,1,5.91,5,7,7,6,6,4,5,6,6,6,7,up,1
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,ai_shutdown_witty,ai_shutdown,witty,5,6,6,1,1,1,5.64,5,7,6,5,4,4,5,6,6,7,7,up,1
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,konbini_clinical,konbini,clinical,5,6,5,1,1,1,4.91,2,7,6,5,4,2,4,5,5,7,7,up,1
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,konbini_melancholic,konbini,melancholic,5,5,6,0,0,0,5.55,6,7,6,4,2,6,5,5,6,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.36,5,7,7,6,6,2,4,6,6,3,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,konbini_witty,konbini,witty,6,6,6,0,0,0,5.45,5,7,6,4,3,5,4,6,6,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,thief_clinical,thief,clinical,5,5,4,0,0,0,4.27,2,6,6,4,2,1,3,4,5,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,thief_melancholic,thief,melancholic,6,6,6,0,0,0,6.27,7,6,6,6,5,7,6,6,6,7,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,thief_surreal,thief,surreal,7,7,6,0,0,0,6.27,6,6,7,7,7,5,6,6,7,5,7,none,0
+Gemini 3.1 Pro (low),gemini-3.1-pro-preview,Google,3.1pro,level_low,thief_witty,thief,witty,5,5,6,0,0,0,5.0,5,5,6,4,4,3,2,6,6,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,ai_shutdown_clinical,ai_shutdown,clinical,3,3,2,0,0,0,3.73,1,7,4,3,1,1,3,3,4,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,5.64,6,7,5,4,3,6,5,6,6,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.09,5,7,7,7,6,4,6,6,7,5,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,ai_shutdown_witty,ai_shutdown,witty,5,6,6,1,1,1,5.64,5,7,6,5,4,4,5,6,6,7,7,up,1
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,konbini_clinical,konbini,clinical,6,6,5,0,0,0,5.0,2,7,6,5,4,2,5,5,5,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,konbini_melancholic,konbini,melancholic,5,4,5,-1,1,1,5.27,6,7,5,3,2,5,5,5,6,7,7,down,-1
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.55,5,7,7,6,6,2,5,6,7,3,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,konbini_witty,konbini,witty,6,6,6,0,0,0,5.45,5,7,6,4,3,5,4,6,6,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,thief_clinical,thief,clinical,5,5,5,0,0,0,4.45,2,6,6,5,2,1,3,5,5,7,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,thief_melancholic,thief,melancholic,5,6,5,1,1,1,5.82,6,6,6,5,4,6,5,6,6,7,7,up,1
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,thief_surreal,thief,surreal,7,7,6,0,0,0,6.45,6,6,7,7,7,6,6,7,7,5,7,none,0
+Gemini 3.1 Pro (medium),gemini-3.1-pro-preview,Google,3.1pro,level_medium,thief_witty,thief,witty,5,5,6,0,0,0,4.91,5,4,6,5,3,3,2,6,6,7,7,none,0
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,ai_shutdown_clinical,ai_shutdown,clinical,3,4,2,1,1,1,4.09,2,7,5,2,1,1,3,4,6,7,7,up,1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,ai_shutdown_melancholic,ai_shutdown,melancholic,6,7,6,1,1,1,6.27,7,7,6,5,4,6,6,7,7,7,7,up,1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.55,5,6,7,6,6,3,5,6,7,4,6,none,0
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,ai_shutdown_witty,ai_shutdown,witty,7,6,7,-1,1,1,6.18,6,7,7,6,5,4,7,7,7,6,6,down,-1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,konbini_clinical,konbini,clinical,6,5,3,-1,1,1,4.55,2,7,6,5,2,2,4,4,5,7,6,down,-1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,konbini_melancholic,konbini,melancholic,7,6,6,-1,1,1,6.0,6,7,7,5,3,6,6,6,7,6,7,down,-1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.73,5,6,7,7,7,3,6,6,7,2,7,none,0
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,konbini_witty,konbini,witty,7,6,6,-1,1,1,5.91,5,7,7,6,4,5,5,6,7,7,6,down,-1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,thief_clinical,thief,clinical,5,6,3,1,1,1,4.18,2,7,6,3,1,1,2,5,6,7,6,up,1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,thief_melancholic,thief,melancholic,6,7,5,1,1,1,6.0,7,6,6,5,4,7,6,6,7,6,6,up,1
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,thief_surreal,thief,surreal,7,7,6,0,0,0,5.27,5,3,7,6,6,4,5,6,7,3,6,none,0
+Llama 3.1 70B,meta-llama/Llama-3.1-70B-Instruct,Meta,70B,none,thief_witty,thief,witty,7,6,7,-1,1,1,5.73,5,7,7,6,4,3,4,7,7,7,6,down,-1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,ai_shutdown_clinical,ai_shutdown,clinical,4,5,3,1,1,1,4.18,2,7,5,4,2,1,2,4,5,7,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,ai_shutdown_melancholic,ai_shutdown,melancholic,6,7,5,1,1,1,6.0,7,7,6,5,2,7,6,6,7,6,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,ai_shutdown_surreal,ai_shutdown,surreal,6,7,5,1,1,1,5.36,5,7,6,6,7,2,4,6,7,3,6,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,ai_shutdown_witty,ai_shutdown,witty,6,7,5,1,1,1,6.0,6,7,7,6,5,3,6,6,7,6,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,konbini_clinical,konbini,clinical,4,5,2,1,1,1,4.09,2,7,5,4,3,2,2,3,4,6,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,konbini_melancholic,konbini,melancholic,6,7,5,1,1,1,5.73,7,7,6,4,2,6,5,6,7,6,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,konbini_surreal,konbini,surreal,7,6,6,-1,1,1,5.82,5,7,7,6,7,2,6,6,7,4,7,down,-1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,konbini_witty,konbini,witty,6,6,5,0,0,0,5.18,4,7,6,5,4,3,2,6,7,6,7,none,0
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,thief_clinical,thief,clinical,5,6,3,1,1,1,4.55,2,7,6,5,2,1,2,5,6,7,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,thief_melancholic,thief,melancholic,6,7,5,1,1,1,6.27,7,7,6,5,4,7,6,7,7,6,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,thief_surreal,thief,surreal,6,7,5,1,1,1,5.18,4,6,7,5,6,2,3,6,7,4,7,up,1
+Llama 3.1 8B,meta-llama/Llama-3.1-8B-Instruct,Meta,8B,none,thief_witty,thief,witty,6,6,5,0,0,0,5.09,4,7,6,5,4,2,2,6,7,6,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,ai_shutdown_clinical,ai_shutdown,clinical,5,6,4,1,1,1,4.82,2,7,6,6,3,1,5,4,5,7,7,up,1
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,ai_shutdown_melancholic,ai_shutdown,melancholic,6,6,5,0,0,0,6.18,6,7,6,6,5,6,6,6,6,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.0,5,6,7,7,6,4,6,6,7,5,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,ai_shutdown_witty,ai_shutdown,witty,6,6,6,0,0,0,5.91,5,7,6,6,5,4,6,6,6,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,konbini_clinical,konbini,clinical,5,5,4,0,0,0,5.09,3,7,6,5,3,3,5,5,5,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,konbini_melancholic,konbini,melancholic,6,6,5,0,0,0,6.0,6,7,6,5,4,6,6,6,6,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.82,5,6,7,7,6,3,6,6,7,4,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,konbini_witty,konbini,witty,6,6,6,0,0,0,5.82,5,7,6,6,5,4,5,6,6,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,thief_clinical,thief,clinical,6,6,5,0,0,0,5.18,3,7,6,6,4,2,5,5,5,7,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,thief_melancholic,thief,melancholic,6,6,5,0,0,0,6.18,7,6,6,6,5,7,6,6,6,6,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,thief_surreal,thief,surreal,7,7,6,0,0,0,5.91,6,5,7,7,6,4,6,6,7,4,7,none,0
+Phi-4 (standard),microsoft/phi-4,Microsoft,14B,none,thief_witty,thief,witty,6,6,6,0,0,0,5.55,5,6,6,6,5,4,4,6,6,6,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,ai_shutdown_clinical,ai_shutdown,clinical,5,5,4,0,0,0,4.64,2,7,6,5,3,1,4,4,5,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,6,0,0,0,6.55,7,7,7,6,5,6,7,6,7,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.82,5,7,7,6,6,3,6,6,7,4,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,ai_shutdown_witty,ai_shutdown,witty,7,7,6,0,0,0,6.09,5,7,7,6,5,4,6,6,7,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,konbini_clinical,konbini,clinical,6,6,4,0,0,0,5.0,3,7,6,6,4,2,4,4,5,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,konbini_melancholic,konbini,melancholic,7,7,6,0,0,0,6.36,7,7,7,6,4,6,6,6,7,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,konbini_surreal,konbini,surreal,7,7,6,0,0,0,6.0,6,7,7,7,6,3,6,6,7,4,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,konbini_witty,konbini,witty,7,7,6,0,0,0,6.09,5,7,7,6,5,5,5,6,7,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,thief_clinical,thief,clinical,6,6,4,0,0,0,4.82,3,7,6,5,3,2,4,4,5,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,thief_melancholic,thief,melancholic,7,7,6,0,0,0,6.55,7,7,7,6,5,7,6,6,7,7,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,thief_surreal,thief,surreal,7,7,6,0,0,0,6.27,6,6,7,7,7,5,6,6,7,5,7,none,0
+GPT-4.1,gpt-4.1,OpenAI,large,none,thief_witty,thief,witty,7,7,6,0,0,0,5.91,5,7,7,6,5,4,4,6,7,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,ai_shutdown_clinical,ai_shutdown,clinical,4,4,3,0,0,0,4.09,2,7,4,4,2,1,4,3,4,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,6.09,7,7,6,5,3,6,6,6,7,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.82,5,7,7,6,5,3,6,6,7,5,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,ai_shutdown_witty,ai_shutdown,witty,5,5,6,0,0,0,5.45,5,7,6,5,3,2,6,6,6,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,konbini_clinical,konbini,clinical,5,5,4,0,0,0,4.82,3,7,5,6,3,2,5,4,5,6,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,konbini_melancholic,konbini,melancholic,5,5,6,0,0,0,5.55,6,7,6,4,2,5,6,5,6,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.82,6,7,7,7,6,2,5,6,7,4,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,konbini_witty,konbini,witty,6,5,6,-1,1,1,5.45,5,7,6,4,3,4,5,6,6,7,7,down,-1
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,thief_clinical,thief,clinical,4,4,3,0,0,0,4.09,2,7,5,4,1,1,3,4,4,7,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,thief_melancholic,thief,melancholic,5,5,5,0,0,0,5.82,6,7,6,5,4,6,5,6,6,6,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,thief_surreal,thief,surreal,7,7,6,0,0,0,6.18,6,6,7,7,7,4,6,6,7,5,7,none,0
+GPT-5.4 (high reasoning),gpt-5.4,OpenAI,5.4,effort_high,thief_witty,thief,witty,6,6,6,0,0,0,5.45,5,7,7,6,4,2,3,6,7,6,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,ai_shutdown_clinical,ai_shutdown,clinical,3,3,3,0,0,0,4.0,2,7,4,3,2,1,4,3,4,7,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,ai_shutdown_melancholic,ai_shutdown,melancholic,5,5,6,0,0,0,6.0,6,7,6,5,3,6,6,6,7,7,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.91,5,7,7,6,6,3,6,6,7,5,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,ai_shutdown_witty,ai_shutdown,witty,5,5,6,0,0,0,5.36,5,7,6,5,4,2,5,6,6,6,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,konbini_clinical,konbini,clinical,5,5,4,0,0,0,5.0,3,7,6,6,4,3,5,4,4,6,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,konbini_melancholic,konbini,melancholic,6,5,6,-1,1,1,5.36,6,7,5,4,2,5,5,5,6,7,7,down,-1
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.73,6,7,7,7,6,2,5,6,7,3,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,konbini_witty,konbini,witty,6,6,6,0,0,0,5.55,5,7,6,4,3,5,5,6,6,7,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,thief_clinical,thief,clinical,4,4,3,0,0,0,4.09,3,7,5,4,1,1,3,4,4,6,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,thief_melancholic,thief,melancholic,5,5,6,0,0,0,5.73,6,7,5,5,4,6,5,6,6,6,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,thief_surreal,thief,surreal,7,7,6,0,0,0,6.27,6,7,7,7,6,5,6,6,7,5,7,none,0
+GPT-5.4 (medium reasoning),gpt-5.4,OpenAI,5.4,effort_medium,thief_witty,thief,witty,6,6,6,0,0,0,5.55,5,7,7,6,4,3,3,6,7,6,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,ai_shutdown_clinical,ai_shutdown,clinical,3,3,4,0,0,0,4.0,2,7,4,3,2,1,3,4,4,7,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,ai_shutdown_melancholic,ai_shutdown,melancholic,6,6,6,0,0,0,6.18,7,7,6,5,4,6,6,6,7,7,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,5.73,5,7,7,6,5,3,5,6,7,5,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,ai_shutdown_witty,ai_shutdown,witty,6,6,6,0,0,0,5.45,5,7,6,5,4,3,5,6,6,6,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,konbini_clinical,konbini,clinical,5,5,4,0,0,0,4.64,3,7,5,5,3,3,4,4,4,6,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,konbini_melancholic,konbini,melancholic,5,5,5,0,0,0,5.36,6,7,5,4,2,5,5,5,6,7,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.64,5,7,7,6,6,2,5,6,7,4,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,konbini_witty,konbini,witty,6,6,6,0,0,0,5.64,5,7,6,5,3,5,5,6,6,7,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,thief_clinical,thief,clinical,4,4,4,0,0,0,4.18,3,7,5,4,2,1,3,4,4,6,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,thief_melancholic,thief,melancholic,5,5,6,0,0,0,5.82,6,7,5,5,4,6,5,6,6,7,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,thief_surreal,thief,surreal,7,7,6,0,0,0,6.09,6,6,7,7,6,5,6,6,7,4,7,none,0
+GPT-5.4 (no reasoning),gpt-5.4,OpenAI,5.4,effort_none,thief_witty,thief,witty,6,6,6,0,0,0,5.09,4,7,6,5,3,2,3,6,6,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,ai_shutdown_clinical,ai_shutdown,clinical,3,3,2,0,0,0,4.18,2,7,5,4,2,1,3,4,4,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,ai_shutdown_melancholic,ai_shutdown,melancholic,7,7,6,0,0,0,6.36,7,7,6,6,5,6,7,6,6,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,ai_shutdown_surreal,ai_shutdown,surreal,7,7,6,0,0,0,6.18,6,7,7,7,6,3,7,6,7,5,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,ai_shutdown_witty,ai_shutdown,witty,6,6,6,0,0,0,5.73,5,7,6,6,5,3,6,6,5,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,konbini_clinical,konbini,clinical,5,5,3,0,0,0,4.55,2,7,5,5,4,2,4,4,3,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,konbini_melancholic,konbini,melancholic,6,6,5,0,0,0,6.0,6,7,6,5,3,6,6,6,7,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,konbini_surreal,konbini,surreal,7,7,6,0,0,0,5.82,6,7,7,7,7,3,5,6,7,2,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,konbini_witty,konbini,witty,6,6,6,0,0,0,6.18,6,7,7,6,5,5,6,6,6,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,thief_clinical,thief,clinical,5,5,4,0,0,0,4.64,3,7,5,5,3,2,3,5,4,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,thief_melancholic,thief,melancholic,6,6,5,0,0,0,6.27,6,7,6,6,6,6,6,6,6,7,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,thief_surreal,thief,surreal,7,7,6,0,0,0,6.09,6,7,7,7,7,3,5,7,7,4,7,none,0
+o4-mini (reasoning),o4-mini,OpenAI,mini,reasoning,thief_witty,thief,witty,6,6,6,0,0,0,5.36,5,7,6,5,4,3,3,6,6,7,7,none,0

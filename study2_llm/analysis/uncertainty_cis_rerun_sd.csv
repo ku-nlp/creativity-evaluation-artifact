@@ -1,0 +1,5 @@
+judge,n_stories,mean_within_story_sd,lo,hi
+GPT-5.5 (high),80,0.1369,0.0957,0.1817
+Gemini 3.1 Pro (low),80,0.1506,0.107,0.1966
+Llama 3.1 70B (NT),80,0.335,0.2846,0.3826
+Qwen 3.5 4B (NT),80,0.6396,0.5818,0.6981
