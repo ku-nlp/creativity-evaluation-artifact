@@ -178,7 +178,7 @@ MANDATORY STYLE GUIDANCE:
 
 The current study uses only the Gemini-generated 80-story set. All LLM judge models rate this same story set, which keeps story-source variation fixed while comparing judge behavior.
 
-Cross-generator story generation and inter-model story-source comparisons are deferred to a later phase and archived under `ARR_August/`.
+Cross-generator story generation and inter-model story-source comparisons are deferred to a later phase.
 
 ## 5. Prompt Sensitivity Study
 

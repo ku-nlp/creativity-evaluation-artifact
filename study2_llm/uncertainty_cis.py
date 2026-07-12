@@ -1,4 +1,4 @@
-"""Bootstrap CIs for the secondary statistics (upyP Suggestions 7 and 8).
+"""Bootstrap CIs for the secondary statistics (review-requested uncertainty reporting).
 
 Computes 95% percentile bootstrap confidence intervals for:
   1. Human revision-by-story-type: revision rate and mean shift conditional
