@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this artifact (code or data), please cite the paper below."
+title: "Creativity Evaluation with Human vs. LLM Judges: code and data artifact"
+abstract: >-
+  Code and data artifact for the paper "A Framework for Evaluating
+  AI-Generated Creativity: Human-LLM Agreement in Evaluating AI-Generated
+  Stories". Contains the 80-story corpus, the human rating data (115 Prolific
+  raters), the raw outputs of all 25 LLM judge conditions, and the generation,
+  rating, and analysis scripts.
+type: software
+authors:
+  - given-names: Pharath
+    family-names: Sathya
+    affiliation: "Graduate School of Informatics, Kyoto University"
+  - given-names: "Yin Jou"
+    family-names: Huang
+    affiliation: "Graduate School of Informatics, Kyoto University"
+  - given-names: Fei
+    family-names: Cheng
+    affiliation: "Graduate School of Informatics, Kyoto University"
+license: MIT
+repository-code: "https://github.com/ku-nlp/creativity-evaluation-artifact"
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "A Framework for Evaluating AI-Generated Creativity: Human-LLM Agreement in Evaluating AI-Generated Stories"
+  authors:
+    - given-names: Pharath
+      family-names: Sathya
+    - given-names: "Yin Jou"
+      family-names: Huang
+    - given-names: Fei
+      family-names: Cheng
+  collection-title: "Proceedings of the 2026 Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the International Joint Conference on Natural Language Processing (AACL-IJCNLP 2026)"
+  year: 2026
