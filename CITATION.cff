@@ -9,8 +9,8 @@ abstract: >-
   rating, and analysis scripts.
 type: software
 authors:
-  - given-names: Pharath
-    family-names: Sathya
+  - given-names: Sathya
+    family-names: Pharath
     affiliation: "Graduate School of Informatics, Kyoto University"
   - given-names: "Yin Jou"
     family-names: Huang
@@ -25,8 +25,8 @@ preferred-citation:
   type: conference-paper
   title: "A Framework for Evaluating AI-Generated Creativity: Human-LLM Agreement in Evaluating AI-Generated Stories"
   authors:
-    - given-names: Pharath
-      family-names: Sathya
+    - given-names: Sathya
+      family-names: Pharath
     - given-names: "Yin Jou"
       family-names: Huang
     - given-names: Fei
