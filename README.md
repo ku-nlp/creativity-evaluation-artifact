@@ -100,3 +100,10 @@ Only needed to re-collect ratings (not to reproduce analyses): `openai`, `google
 ## Human study ethics
 
 Raters were recruited on Prolific with informed consent and paid above the platform's recommended rate. Only the coded demographics shown above were retained; no participant identifiers were exported. The exact survey is included as `study1_human/survey_instrument.qsf`; full design details are in the paper appendix (Human Survey Design and Ethics).
+
+## License
+
+- **Code** (all `.py` scripts and analysis code): MIT License, see [`LICENSE`](LICENSE).
+- **Data** (the 80-story corpus, human and LLM rating data, raw judge outputs, survey instrument): Creative Commons Attribution 4.0 International (CC BY 4.0), see [`DATA_LICENSE.md`](DATA_LICENSE.md).
+
+If you use this artifact, please cite the paper (Pharath Sathya, Yin Jou Huang, and Fei Cheng, "A Framework for Evaluating AI-Generated Creativity: Human-LLM Agreement in Evaluating AI-Generated Stories," AACL-IJCNLP 2026).
