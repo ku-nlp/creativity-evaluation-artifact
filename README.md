@@ -1,8 +1,8 @@
-# Artifact Repository — ARR Submission 13010
+# Creativity Evaluation with Human vs. LLM Judges — Artifact
 
-Code and data artifact for the ARR submission *"Creativity Evaluation with Human vs. LLM Judges"* (submission 13010). This repository contains everything needed to reproduce the numbers in the paper: the 80 LLM-generated stories, the human rating data (115 Prolific raters), the raw outputs of all 25 LLM judge conditions, and the generation, rating, and analysis scripts.
+Code and data artifact for the paper *"A Framework for Evaluating AI-Generated Creativity: Human-LLM Agreement in Evaluating AI-Generated Stories"* (Pharath Sathya, Yin Jou Huang, and Fei Cheng, Graduate School of Informatics, Kyoto University), AACL-IJCNLP 2026. This repository contains everything needed to reproduce the numbers in the paper: the 80 LLM-generated stories, the human rating data (115 Prolific raters), the raw outputs of all 25 LLM judge conditions, and the generation, rating, and analysis scripts.
 
-This repository is anonymized for review. No author names, institutions, or participant identifiers appear anywhere; participant data is fully de-identified (no Prolific IDs, IPs, or free-text responses were ever exported into these files).
+Participant data is fully de-identified. No Prolific IDs, IPs, or free-text responses were ever exported into these files, and only the coded demographics documented below were retained.
 
 ## Overview
 
@@ -17,7 +17,7 @@ The paper introduces a creativity-decomposition framework with a three-step rati
 study1_human/
   survey_instrument.qsf      exact Qualtrics survey shown to participants (import into any
                              Qualtrics account to inspect; contact details and platform IDs
-                             redacted for double-blind review)
+                             redacted for participant privacy)
   data/
     human_ratings.csv        115 rows, one per (rater, story); see data dictionary below
     llm_ratings.csv          LLM raters on the same 12 stories (long format, one row per model x story)
