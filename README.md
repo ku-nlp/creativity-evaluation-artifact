@@ -49,7 +49,7 @@ One row per rater (each rater rated exactly one story). All rating columns are 1
 |---|---|
 | `TOPIC` | Story topic prompt text (3 topics) |
 | `TONE` | Assigned tone; each tone is the generation-side name of one spiked story type. Mapping to the paper's naming: Surreal = high-Novelty (hi-N), Clinical = high-Adherence (hi-A), Melancholic = high-Resonance (hi-R), Witty = high-Value (hi-V). Story IDs throughout the repo use the tone suffix (e.g. `ai_shutdown_surreal` = the paper's high-Novelty ai_shutdown story). |
-| `O_Enjoyment` | Overall enjoyment (secondary outcome, Appendix) |
+| `O_Enjoyment` | Overall enjoyment (secondary outcome, Appendix F) |
 | `O_Initial_Creativity` | IC: impressionistic creativity rating (step 1) |
 | `O_Final_Creativity` | RC: reflective creativity rating after sub-component evaluation (step 3) |
 | `R_Emotion`, `R_Empathy`, `R_Thought` | Resonance sub-components: emotional impact, empathy, thought-provocation |
@@ -71,19 +71,19 @@ All scripts resolve data via relative paths anchored on their own location (`Pat
 
 | Script | Reproduces | Output |
 |---|---|---|
-| `study1_human/analysis/reliability.py` | Krippendorff's alpha, rater disagreement (Sec. 4.1, App. B) | printed stats |
-| `study1_human/analysis/phase1d_variance_agreement.py` | human vs LLM disagreement figures (Sec. 4.1 / 5.1) | `analysis/figures/` |
-| `study1_human/analysis/phase1b_gatekeeper_flip.py` | human revision behaviour (Sec. 4.2, revision-by-tone table) | printed stats |
-| `study1_human/analysis/pattern_regression.py`, `phase1c_subcomponent_weights.py` | sub-component -> RC regression (Sec. 4.3, formula table) | printed stats |
+| `study1_human/analysis/reliability.py` | Krippendorff's alpha, rater disagreement (Section 5.1; Appendix A) | printed stats |
+| `study1_human/analysis/phase1d_variance_agreement.py` | human vs LLM disagreement figures (Section 5.1 / 6.1) | `analysis/figures/` |
+| `study1_human/analysis/phase1b_gatekeeper_flip.py` | human revision behaviour (Section 5.2) | printed stats |
+| `study1_human/analysis/pattern_regression.py`, `phase1c_subcomponent_weights.py` | sub-component -> RC regression (Section 5.3, formula table) | printed stats |
 | `study1_human/analysis/mixed_effects_rc.py` | mixed-effects robustness check of the RC regression (stories as random effects) | `analysis/mixed_effects_rc_comparison.csv` |
-| `study2_llm/structured_analysis.py` | the three LLM results pillars: distribution collapse, upward revision, sub-component weighting (Sec. 5, Tables F1-F3) | `analysis/structured_analysis.csv` |
+| `study2_llm/structured_analysis.py` | the three LLM results pillars: distribution collapse, upward revision, sub-component weighting (Section 6; full per-condition tables in Appendix H) | `analysis/structured_analysis.csv` |
 | `study2_llm/verify_per_aspect_winners.py` | per-aspect human-vs-LLM winner counts | printed stats |
-| `study2_llm/manipulation_check.py` | Spike Prompting manipulation check (does spiking a component raise that component's rating) | `analysis/manipulation_check_*.csv` |
+| `study2_llm/manipulation_check.py` | Spike Prompting manipulation check, Section 4 (does spiking a component raise that component's rating) | `analysis/manipulation_check_*.csv` |
 | `study2_llm/matched_subset_check.py` | 12-story matched-subset comparability of Study 1 and Study 2 | `analysis/matched_subset_check.csv` |
 | `study2_llm/bootstrap_stability.py` | bootstrap CIs for beta vectors and delta-R2 (slow: resampling loop) | `analysis/bootstrap_stability_*.csv` |
-| `study2_llm/temp_sensitivity/analyze_sampling.py` | repeated-sampling / temperature stability (App. F rerun protocols) | `analysis/sampling_stability_summary.csv` |
+| `study2_llm/temp_sensitivity/analyze_sampling.py` | repeated-sampling / temperature stability (Appendix E rerun protocols) | `analysis/sampling_stability_summary.csv` |
 | `study2_llm/uncertainty_cis.py` | bootstrap 95% CIs for secondary statistics: revision-by-type, human-LLM ranking correlations, sub-component winners, rerun SDs | `analysis/uncertainty_cis_*.csv` |
-| `study2_llm/prompt_sensitivity/analyze.py` | prompt-paraphrase sensitivity (App. F) | printed stats |
+| `study2_llm/prompt_sensitivity/analyze.py` | prompt-paraphrase sensitivity (Appendix E) | printed stats |
 
 To re-collect LLM ratings from scratch: `study2_llm/rating_scripts/run_judges.py` targets any OpenAI-compatible endpoint (we used vLLM on a local GPU server) and `run_gemini.py` / `run_openai.py` use the respective official APIs. `shared_prompts.py` contains the exact three-step prompts, identical in wording to the human survey. `temp_sensitivity/gpu_server_commands.sh` documents the full open-model sensitivity sweep.
 
